@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alekhine's Immortals — The Greatest Games of Alexander Alekhine</title>
+  <meta name="description" content="An interactive collection of the 50 greatest chess games of World Champion Alexander Alekhine (1892–1946).">
+  
+  <!-- Chess libraries -->
+  <link rel="stylesheet"
+    href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+    crossorigin="anonymous">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════ HEADER ═══════════════════ -->
+  <header>
+    <div class="header-ornament">✦ &nbsp; Chess Immortality &nbsp; ✦</div>
+    <h1>Alekhine's Immortals</h1>
+    <p class="subtitle">The Greatest Games of Alexander Alekhine, World Champion 1927–1946</p>
+    <div class="header-rule"></div>
+    <p class="game-count">Fifty masterpieces · 1907 – 1946</p>
+  </header>
+
+  <!-- ═══════════════════ CONTROLS ═══════════════════ -->
+  <div class="controls">
+    <div class="controls-inner">
+
+      <!-- Sort -->
+      <div class="filter-group">
+        <span class="controls-label">Sort:</span>
+        <button class="sort-btn active" data-sort="rank">Greatest</button>
+        <button class="sort-btn" data-sort="year">Year</button>
+        <button class="sort-btn" data-sort="opening">Opening</button>
+        <button class="sort-btn" data-sort="theme">Theme</button>
+      </div>
+
+      <!-- Filter: Theme -->
+      <div class="filter-group">
+        <span class="controls-label">Theme:</span>
+        <select id="filter-theme">
+          <option value="">All themes</option>
+        </select>
+      </div>
+
+      <!-- Filter: Opening -->
+      <div class="filter-group">
+        <span class="controls-label">Opening:</span>
+        <select id="filter-opening">
+          <option value="">All openings</option>
+        </select>
+      </div>
+
+      <!-- Filter: Result -->
+      <div class="filter-group">
+        <span class="controls-label">Result:</span>
+        <select id="filter-result">
+          <option value="">All results</option>
+          <option value="win">Alekhine wins</option>
+          <option value="loss">Alekhine loses</option>
+          <option value="draw">Draw</option>
+        </select>
+      </div>
+
+      <!-- Filter: Decade -->
+      <div class="filter-group">
+        <span class="controls-label">Decade:</span>
+        <select id="filter-year">
+          <option value="">All years</option>
+          <option value="1900">1900s</option>
+          <option value="1910">1910s</option>
+          <option value="1920">1920s</option>
+          <option value="1930">1930s</option>
+          <option value="1940">1940s</option>
+        </select>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group">
+        <input type="text" id="search-input" placeholder="Search games…" style="width:160px">
+      </div>
+
+      <!-- Reset + count -->
+      <button class="reset-btn" id="reset-btn">Reset</button>
+      <span class="results-count" id="results-count">50 of 50 games</span>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
+  <div class="main-content">
+
+    <!-- Game list -->
+    <div class="game-list" id="game-list">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Game detail -->
+    <div class="game-detail" id="game-detail">
+
+      <div class="game-detail-header">
+        <div class="game-rank-badge" id="detail-rank">Greatest Game №1</div>
+        <h2 class="game-title" id="detail-title"></h2>
+        <div class="game-participants">
+          <span class="player-name player-white" id="detail-white"></span>
+          <span class="vs-separator">vs.</span>
+          <span class="player-name player-black" id="detail-black"></span>
+          <span class="result-badge" id="detail-result"></span>
+        </div>
+        <div class="game-event-info">
+          <span>📅 <span id="detail-year"></span></span>
+          <span>🏆 <span id="detail-event"></span></span>
+        </div>
+      </div>
+
+      <div class="game-description" id="detail-description"></div>
+
+      <div class="game-tags-row" id="detail-tags"></div>
+
+      <!-- Board + moves -->
+      <div class="board-area">
+
+        <div class="board-wrapper">
+          <div class="board-container">
+            <div id="board"></div>
+          </div>
+
+          <!-- Move controls -->
+          <div class="move-controls">
+            <button class="move-btn" id="btn-start" title="Start (Home)">⏮</button>
+            <button class="move-btn" id="btn-prev" title="Previous (←)">◀</button>
+            <button class="move-btn" id="btn-next" title="Next (→)">▶</button>
+            <button class="move-btn" id="btn-end" title="End (End)">⏭</button>
+            <span class="move-indicator" id="move-indicator">Start · 0 / 0</span>
+          </div>
+        </div>
+
+        <!-- Move list -->
+        <div class="move-list-panel">
+          <div class="move-list-title">Move List</div>
+          <div class="move-list" id="move-list"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════ SCRIPTS ═══════════════════ -->
+  <!-- jQuery (required by chessboard.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- chess.js — game logic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+  <!-- chessboard.js — board display -->
+  <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+    crossorigin="anonymous"></script>
+  <!-- Game data -->
+  <script src="js/games.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
