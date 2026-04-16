@@ -20,6 +20,15 @@ let state = {
   selectedId: null
 };
 
+// ── Board sizing ─────────────────────────────────────────
+function getBoardSize() {
+  return window.innerWidth <= 768 ? window.innerWidth : 380;
+}
+
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
 // ── Init ─────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   populateFilters();
@@ -27,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
   applySort('rank');
   renderList();
 
-  // Select first game
-  if (ALEKHINE_GAMES.length > 0) {
+  // On desktop: pre-select first game. On mobile: let user choose from list.
+  if (ALEKHINE_GAMES.length > 0 && !isMobile()) {
     selectGame(ALEKHINE_GAMES[0].id);
   }
 });
@@ -86,6 +95,14 @@ function bindEvents() {
   document.getElementById('btn-next').addEventListener('click', nextMove);
   document.getElementById('btn-end').addEventListener('click', goToEnd);
 
+  // Mobile back button
+  document.getElementById('mobile-back-btn').addEventListener('click', () => {
+    document.body.classList.remove('mobile-board-view');
+    // Scroll list back to selected item
+    const activeItem = document.querySelector('.game-item.active');
+    if (activeItem) setTimeout(() => activeItem.scrollIntoView({ block: 'center' }), 50);
+  });
+
   // Keyboard navigation
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
@@ -93,6 +110,14 @@ function bindEvents() {
     if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); nextMove(); }
     if (e.key === 'Home') { e.preventDefault(); goToStart(); }
     if (e.key === 'End') { e.preventDefault(); goToEnd(); }
+  });
+
+  // Resize: re-fit board on orientation change / window resize
+  window.addEventListener('resize', () => {
+    if (board && currentGame) {
+      document.getElementById('board').style.width = getBoardSize() + 'px';
+      board.resize();
+    }
   });
 }
 
@@ -229,9 +254,15 @@ function selectGame(id) {
     el.classList.toggle('active', parseInt(el.dataset.id) === id);
   });
 
-  // Scroll selected item into view
-  const activeItem = document.querySelector('.game-item.active');
-  if (activeItem) activeItem.scrollIntoView({ block: 'nearest' });
+  // On mobile: switch to board view
+  if (isMobile()) {
+    document.body.classList.add('mobile-board-view');
+    window.scrollTo(0, 0);
+  } else {
+    // Desktop: scroll selected item into view
+    const activeItem = document.querySelector('.game-item.active');
+    if (activeItem) activeItem.scrollIntoView({ block: 'nearest' });
+  }
 
   renderGameDetail(currentGame);
   initBoard(currentGame);
@@ -307,6 +338,9 @@ function initBoard(g) {
 
   // Reset to start
   game.reset();
+
+  // Size board responsively
+  document.getElementById('board').style.width = getBoardSize() + 'px';
 
   // Init or update board
   const cfg = {
