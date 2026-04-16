@@ -11,7 +11,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination"],
     opening: "Queen's Indian Defense",
     description: "Alekhine's most celebrated victory. He dismantles his chief rival Nimzowitsch with a brilliant kingside attack at the peak of his powers. Widely regarded as one of the greatest games ever played.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 O-O 7. Qc2 d5 8. cxd5 exd5 9. Bg5 Be6 10. e3 Nbd7 11. O-O Ne4 12. Bf4 f5 13. Ne5 Nxe5 14. Bxe5 Bd6 15. Bxd6 Nxd6 16. f3 Qh4 17. Rf2 f4 18. exf4 Rxf4 19. Nb5 Nxb5 20. Qxc7 Rf8 21. Re1 Nc3 22. bxc3 Rxf3 23. Rxf3 Bxf3 24. Bxf3 Rxf3 25. Re8+ Kf7 26. Qd7+ Kf6 27. Rxa8 Qxh2+ 28. Kf1 Qh1+ 29. Ke2 Qxg2+ 30. Kd3 Qf3+ 31. Kc2 Qe2+ 32. Kb3 Qd3+ 33. Ka4 b5+ 34. Kxb5 Qd7+ 35. Ka5 Qa7+ 36. Kb4 Qb6+ 37. Kc4 Qb5#"
+    pgn: "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Bd2 Ne7 6.Nb5 Bxd2+ 7.Qxd2 O-O 8.c3 b6 9.f4 Ba6 10.Nf3 Qd7 11.a4 Nbc6 12.b4 cxb4 13.cxb4 Bb7 14.Nd6 f5 15.a5 Nc8 16.Nxb7 Qxb7 17.a6 Qf7 18.Bb5 N8e7 19.O-O h6 20.Rfc1 Rfc8 21.Rc2 Qe8 22.Rac1 Rab8 23.Qe3 Rc7 24.Rc3 Qd7 25.R1c2 Kf8 26.Qc1 Rbc8 27.Ba4 b5 28.Bxb5 Ke8 29.Ba4 Kd8 30.h4 h5 31.Kh2 g6 32.g3 1-0"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Sacrifice"],
     opening: "Ruy Lopez",
     description: "The 21-year-old Alekhine defeats the reigning World Champion Lasker in stunning fashion. A prophetic game showing the world that a new chess giant had arrived.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 Bd7 13. Nf1 Rfe8 14. Ne3 g6 15. dxc5 dxc5 16. Nh2 Rad8 17. Qf3 Be6 18. Nef5 gxf5 19. Nxf5 Bxf5 20. exf5 e4 21. Qg3+ Kh8 22. f6 Bf8 23. Bg5 Re5 24. Bxf6+ Rxf6 25. Re3 Qd6 26. Rae1 Nc4 27. Rxe4 Rxe4 28. Rxe4 Nd2 29. Re1 Nxf3+ 30. gxf3 Rxf6 31. Kh2 Qd2 32. Re8 Qxf2+ 33. Kh1 Qf1+ 34. Rxf1 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3 f6 6.d4 exd4 7.Qxd4 Qxd4 8.Nxd4 Bd6 9.Be3 Ne7 10.O-O-O O-O 11.Nb3 Ng6 12.Bc5 Bf4+ 13.Kb1 Re8 14.Rhe1 b6 15.Be3 Be5 16.Bd4 Nh4 17.Rg1 Be6 18.f4 Bd6 19.Bf2 Ng6 20.f5 Bxb3 21.axb3 Nf8 22.Bxb6 Bxh2 23.Rh1 cxb6 24.Rxh2 b5 25.Re1 Nd7 26.Nd1 a5 27.Rh3 b4 28.Nf2 Nc5 29.Rhe3 a4 30.bxa4 Nxa4 31.e5 fxe5 32.Rxe5 Reb8 33.Ne4 b3 34.Re2 Nb6 35.cxb3 Nd5 36.g4 h6 37.g5 hxg5 38.Nxg5 Nf6 39.Re7 Rxb3 40.Rg2 Nd5 41.Rd7 Rd3 42.Rxd5 Rxd5 43.Ne6 Kf7 44.Rxg7+ Kf6 45.Rc7 Rd6 46.Nc5 Kxf5 47.Rf7+ Ke5 48.Kc2 Rh6 49.Nd3+ Kd6 50.Rf5 Rb8 51.Kc3 Kc7 52.Rf7+ Kb6 53.Rd7 Rh3 54.Rd4 Rbh8 55.Rb4+ Kc7 56.Kc2 R8h4 57.Rb3 Rh2+ 58.Kc3 R4h3 59.Rb4 Rh5 60.Rg4 R2h3 61.Kc2 Rd5 62.Nf4 Rc5+ 63.Kb1 Rh1+ 64.Ka2 Ra5+ 65.Kb3 Rb5+ 66.Kc3 Kb6 67.Nd3 Rh3 68.Kc2 Rd5 69.Rb4+ Kc7 70.Rb3 Rh2+ 71.Kc3 Kd6 72.Ra3 Rg2 73.Ra1 Rg3 74.Rd1 Kc7 75.Rd2 Kb6 76.Rd1 Kb5 77.Kc2 Kc4 78.b3+ Kb5 79.Rd2 Rh3 80.Rd1 Rh2+ 81.Kc3 Rd8 82.Rg1 Rh3 83.Rd1 Rdh8 84.Rg1 R8h5 85.Kc2 Rd5 86.Rd1 Rg5 87.Rd2 Rhg3 88.Nc1 Rg2 89.Ne2 Kb6 1/2-1/2"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const ALEKHINE_GAMES = [
     themes: ["Endgame", "Strategy"],
     opening: "Queen's Gambit Declined",
     description: "The decisive game of the most dramatic World Championship match in history. Alekhine outplays the 'unbeatable' Capablanca in a technical endgame of extraordinary precision to claim the World Championship.",
-    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Qc2 c5 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. dxc5 Nxc5 12. Nd4 Ne6 13. Nxe6 Bxe6 14. Bb5 Rfd8 15. O-O a6 16. Bd3 Rac8 17. Qe2 Qd6 18. Rfd1 Qb4 19. b3 Qb6 20. a4 Bb3 21. Rab1 Bc4 22. Bxc4 dxc4 23. bxc4 Rxc4 24. Rb4 Rxb4 25. Qxb4 Qc6 26. Qb7 Qxb7 27. Rxd8+ Ke7 28. Rxa8 1-0"
+    pgn: "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 Be7 6.Nf3 O-O 7.Rc1 a6 8.a3 h6 9.Bh4 dxc4 10.Bxc4 b5 11.Be2 Bb7 12.O-O c5 13.dxc5 Nxc5 14.Nd4 Rc8 15.b4 Ncd7 16.Bg3 Nb6 17.Qb3 Nfd5 18.Bf3 Rc4 19.Ne4 Qc8 20.Rxc4 Nxc4 21.Rc1 Qa8 22.Nc3 Rc8 23.Nxd5 Bxd5 24.Bxd5 Qxd5 25.a4 Bf6 26.Nf3 Bb2 27.Re1 Rd8 28.axb5 axb5 29.h3 e5 30.Rb1 e4 31.Nd4 Bxd4 32.Rd1 Nxe3 0-1"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination", "Sacrifice"],
     opening: "English Opening",
     description: "Against the great hypermodern theoretician Réti, Alekhine produces a dazzling combinational attack. The final sequence is a cascade of brilliant sacrifices that shocked the chess world.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Bg5 Be7 5. Nc3 O-O 6. e3 Nbd7 7. Bd3 dxc4 8. Bxc4 c5 9. O-O cxd4 10. exd4 Nb6 11. Bb3 Bd7 12. Qd3 Nbd5 13. Ne5 Bc6 14. Rad1 Nb4 15. Qh3 Bd5 16. Nxd5 Nbxd5 17. f4 Rc8 18. f5 exf5 19. Rxf5 g6 20. Rdf1 gxf5 21. Rxf5 Ng4 22. Nxg4 Ne3 23. Qxe3 Rxc1+ 24. Kf2 Qb6 25. Ne5 Qxe3+ 26. Kxe3 Bc5+ 27. d5 Rg1 28. Rxf7 Rxg2 29. Nd7 Re8 30. Kf3 Rh2 31. Nxc5 Rxh7 32. Nd7 1-0"
+    pgn: "1.g3 e5 2.Nf3 e4 3.Nd4 d5 4.d3 exd3 5.Qxd3 Nf6 6.Bg2 Bb4+ 7.Bd2 Bxd2+ 8.Nxd2 O-O 9.c4 Na6 10.cxd5 Nb4 11.Qc4 Nbxd5 12.N2b3 c6 13.O-O Re8 14.Rfd1 Bg4 15.Rd2 Qc8 16.Nc5 Bh3 17.Bf3 Bg4 18.Bg2 Bh3 19.Bf3 Bg4 20.Bh1 h5 21.b4 a6 22.Rc1 h4 23.a4 hxg3 24.hxg3 Qc7 25.b5 axb5 26.axb5 Re3 27.Nf3 cxb5 28.Qxb5 Nc3 29.Qxb7 Qxb7 30.Nxb7 Nxe2+ 31.Kh2 Ne4 32.Rc4 Nxf2 33.Bg2 Be6 34.Rcc2 Ng4+ 35.Kh3 Ne5+ 36.Kh2 Rxf3 37.Rxe2 Ng4+ 38.Kh3 Ne3+ 39.Kh2 Nxc2 40.Bxf3 Nd4 41.Rf2 Nxf3+ 42.Rxf3 Bd5 0-1"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "King Hunt"],
     opening: "King's Indian Defense",
     description: "Winner of the brilliancy prize at London 1922, this game features a spectacular king hunt across the entire board. Alekhine chases Bogoljubov's king from the kingside to the queenside in a dazzling display.",
-    pgn: "1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Bb4+ 5. Bd2 Bxd2+ 6. Nxd2 Nc6 7. Ngf3 O-O 8. O-O d6 9. Qc2 e5 10. e4 fxe4 11. Nxe4 Nxe4 12. Qxe4 exd4 13. Qxd4 Qxd4 14. Nxd4 Ne5 15. b3 c5 16. Nf5 Bxf5 17. Rxf5 Rae8 18. Re1 Kh8 19. Rxe5 dxe5 20. Bc6 Re6 21. Rxe5 Rxe5 22. Bxe8 Re1+ 23. Kg2 Re2+ 24. Kf3 Rxf2+ 25. Ke3 Rxf1 26. Bxf7 1-0"
+    pgn: "1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.Nc3 Nbd7 5.Bg5 Be7 6.e3 O-O 7.Rc1 a6 8.c5 c6 9.b4 Ne4 10.Bf4 g5 11.Bg3 Nxg3 12.hxg3 f5 13.g4 fxg4 14.Ne5 Nxe5 15.dxe5 Qc7 16.Qd4 Rf5 17.Bd3 Qxe5 18.Qxe5 Rxe5 19.Rxh7 Bf6 20.Kd2 Bg7 21.Rch1 Rb8 22.Na4 Rf5 23.Bxf5 exf5 24.R7h5 Be6 25.Rxg5 d4 26.exd4 Rd8 27.Kc3 Kf8 28.Rd1 Kf7 29.Nb6 Rh8 30.Rxg7+ Kxg7 31.a4 Rh2 32.Rg1 f4 33.d5 cxd5 34.Kd4 g3 35.f3 Kf6 36.b5 axb5 37.axb5 Rh5 38.c6 bxc6 39.bxc6 Ke7 40.c7 Kd6 41.c8=Q Bxc8 42.Nxc8+ Kd7 43.Rc1 Rh2 44.Rc2 Ke6 45.Re2+ Kf6 46.Nb6 Rh1 47.Nxd5+ Kg5 48.Ke5 Rh8 49.Nxf4 Ra8 50.Ne6+ Kh4 51.Re1 Rh8 52.Rh1+ 1-0"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional"],
     opening: "French Defense",
     description: "In his second World Championship match against Bogoljubov, Alekhine demonstrates flawless positional play. The strategic maneuvering is a textbook example of how to accumulate small advantages.",
-    pgn: "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. e5 h6 6. Bd2 Bxc3 7. bxc3 Ne4 8. Qg4 g6 9. Bd3 Nxd2 10. Kxd2 c5 11. Nf3 Nc6 12. Rhf1 Qa5 13. Ke2 c4 14. Be2 b5 15. g4 b4 16. cxb4 Nxb4 17. Nd2 Bd7 18. h4 O-O-O 19. Nf3 Kb8 20. h5 g5 21. Nh2 a5 22. Ng4 a4 23. f4 gxf4 24. Rxf4 Rdf8 25. Raf1 f6 26. exf6 Rxf6 27. Rxf6 Rxf6 28. Ne5 Be8 29. Bg4 Qb6 30. Qe2 Qa5 31. Nc6+ Bxc6 32. Rxf6 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Bxc6 dxc6 6.Nc3 Bd6 7.d3 c5 8.h3 Be6 9.Be3 h6 10.a4 c4 11.d4 exd4 12.Bxd4 Bb4 13.O-O c6 14.e5 Nd5 15.Ne4 Nf4 16.Bc5 Bxc5 17.Qxd8+ Rxd8 18.Nxc5 b6 19.Nb7 Rd7 20.Nd6+ Ke7 21.Nd4 Bd5 22.g3 Nxh3+ 23.Kh2 Ng5 24.f4 Ne4 25.N6f5+ Kd8 26.Nxg7 f6 27.Rad1 Kc8 28.Ndf5 fxe5 29.fxe5 Rg8 30.e6 Rdxg7 31.Nxg7 Rxg7 32.Rxd5 cxd5 33.Rf8+ Kc7 34.Rf7+ Kd6 35.Rxg7 Kxe6 36.Rg6+ Ke5 37.Kg2 b5 38.a5 d4 39.Rxa6 b4 40.Kf3 c3 41.bxc3 bxc3 42.Re6+ Kxe6 43.Kxe4 1-0"
   },
   {
     id: 7,
@@ -95,21 +95,7 @@ const ALEKHINE_GAMES = [
     themes: ["Endgame", "Zugzwang"],
     opening: "Queen's Gambit Declined",
     description: "A legendary endgame where Alekhine maneuvers his opponent into a complete zugzwang — every move Samisch makes worsens his position. The final position is one of the most instructive in chess history.",
-    pgn: "1. d4 d5 2. Nf3 c5 3. c4 e6 4. cxd5 exd5 5. Nc3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. dxc5 Bxc5 10. Bg5 Be6 11. Bxf6 Qxf6 12. Nd4 Nxd4 13. Qxd4 Qxd4 14. Nxd5 Rad8 15. Nxc5 Rxd4 16. Nxb7 Rd2 17. Rfe1 Rxe1+ 18. Rxe1 Rb2 19. Nd6 Rxb2 20. Nxe8 Rxe8 21. Re2 Rb8 22. e4 h6 23. Kf1 Kf8 24. Ke1 Ke7 25. Kd2 Kd6 26. f3 g5 27. h3 h5 28. g4 hxg4 29. hxg4 Kc5 30. Kc3 a5 31. Rc2+ Kb5 32. Rb2+ Kc5 33. a4 Rd8 34. Rc2+ Kb4 35. Rb2+ Ka3 36. Rd2 Rb8 37. Kc4 Rc8+ 38. Kb5 Rb8+ 39. Ka6 Rg8 40. Rb2 Kb4 41. Rb1 Kc4 42. Rc1+ Kb4 43. Rc7 Kb3 44. Rxf7 Rxg4 45. Rxf4 1-0"
-  },
-  {
-    id: 8,
-    rank: 8,
-    title: "The Pawn Hurricane",
-    white: "Alexander Alekhine",
-    black: "Drewitt",
-    year: 1923,
-    event: "Portsmouth Simul",
-    result: "1-0",
-    themes: ["Attack", "Sacrifice", "Combination"],
-    opening: "King's Gambit",
-    description: "Even in a simultaneous exhibition, Alekhine's genius shines. A whirlwind king's gambit attack featuring multiple piece sacrifices culminates in a forced mate. Electrifying chess.",
-    pgn: "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 g4 5. Ne5 Qh4+ 6. g3 fxg3 7. Qxg4 g2+ 8. Qxh4 gxh1=Q 9. Nd5 Kd8 10. Nf7+ Ke8 11. Nd6+ Kd8 12. Qd4 Nc6 13. Qf6+ Kc7 14. Nb5+ Kb6 15. Qc3 Nge7 16. Na4+ Ka5 17. Qb3 b6 18. c4 d6 19. Nc3 Bg4 20. b4+ Ka4 21. Qb2 Bxd1 22. Ra3# 1-0"
+    pgn: "1.e4 c5 2.Nf3 Nc6 3.Be2 e6 4.O-O d6 5.d4 cxd4 6.Nxd4 Nf6 7.Bf3 Ne5 8.c4 Nxf3+ 9.Qxf3 Be7 10.Nc3 O-O 11.b3 Nd7 12.Bb2 Bf6 13.Rad1 a6 14.Qg3 Qc7 15.Kh1 Rd8 16.f4 b6 17.f5 Be5 18.fxe6 Bxg3 19.exf7+ Kh8 20.Nd5 1-0"
   },
   {
     id: 9,
@@ -123,7 +109,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Attack", "Center Control"],
     opening: "Nimzo-Indian Defense",
     description: "A deeply strategic battle in which Alekhine refutes Nimzowitsch's own hypermodern ideas with classical center control. The game has a beautiful instructive quality culminating in a crisp attack.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 Nc6 7. O-O Bxc3 8. bxc3 d6 9. Nd2 e5 10. e4 Re8 11. f3 exd4 12. cxd4 cxd4 13. Nb3 d3 14. Bc2 dxc2 15. Qxd6 Qxd6 16. Nxd6 Re6 17. Nxc8 Raxc8 18. Bg5 Ne8 19. Rfd1 Nc7 20. Bh4 Ne7 21. Rd6 Rxd6 22. Bxd8 Rxd8 23. Rxd8+ Nxd8 24. e5 f6 25. exf6 gxf6 26. Kf2 Kf7 27. Ke3 Ke6 28. Kd4 Ned5 29. g4 h6 30. h4 Ne7 31. f4 Nd5 32. g5 hxg5 33. hxg5 fxg5 34. fxg5 Ne7 35. g6 Nd5 36. Ke5 1-0"
+    pgn: "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d6 5.Bg5 Nbd7 6.e3 b6 7.Bd3 Bb7 8.f3 Bxc3+ 9.Qxc3 c5 10.Nh3 h6 11.Bf4 Qe7 12.Bg3 e5 13.dxe5 dxe5 14.O-O-O g6 15.Bc2 O-O-O 16.Ba4 Rhe8 17.Nf2 Qe6 18.Nd3 Re7 19.Rd2 Rde8 20.Rhd1 Bc6 21.Bc2 Nh5 22.Nxc5 Nxc5 23.Rd6 Nxg3 24.hxg3 Qxd6 25.Rxd6 Rc7 26.b4 Nb7 27.Rxc6 Rxc6 28.Ba4 Ree6 29.Bxc6 Rxc6 30.Qxe5 Rxc4+ 31.Kd2 h5 32.a3 Rc7 33.Qe8+ Nd8 34.e4 Rd7+ 35.Ke3 Rc7 36.Kf4 Rc3 37.a4 Rc2 38.Qe7 Rc7 39.Qf6 Rc2 40.Qe7 Rc7 41.Qd6 Ne6+ 42.Ke5 Nd8 43.Qd5 Rc6 44.Kf4 Ne6+ 45.Ke3 Rc3+ 46.Ke2 Rc7 47.f4 Nd8 48.Ke3 Rc3+ 49.Kd4 Rc7 50.Ke5 a5 51.Qa8+ Kd7 52.b5 Ke7 53.f5 f6+ 54.Kd4 Rd7+ 55.Ke3 gxf5 56.exf5 Nf7 57.Qf3 Ne5 58.Qxh5 Rd3+ 59.Kf2 Rd2+ 60.Kf1 Rd4 61.Qh7+ Kd6 62.Qb7 Nd7 63.Qc6+ Ke7 64.Qe6+ Kd8 65.Qb3 Rb4 66.Qd1 Ke7 67.Qe2+ Kd8 68.Qa2 Ke7 69.Ke2 Re4+ 70.Kf3 Rb4 71.Ke3 Nc5 72.Qg8 Nd7 73.g4 Rxa4 74.g5 fxg5 75.Qxg5+ Kd6 76.Qg6+ Kc7 77.Qc6+ Kd8 78.f6 Ra1 79.g4 Rf1 80.g5 Rf5 81.Qa8+ 1-0"
   },
   {
     id: 10,
@@ -137,7 +123,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination"],
     opening: "Ruy Lopez",
     description: "A young Alekhine takes on the great endgame virtuoso Rubinstein and wins with a ferocious middle-game attack. One of his earliest masterpieces, heralding his future greatness.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d6 9. d4 Bg4 10. d5 Na5 11. Bc2 c6 12. h3 Bc8 13. dxc6 Qc7 14. Nbd2 Qxc6 15. b4 Nc4 16. Nxc4 Qxc4 17. Bb3 Qc7 18. Bg5 Bb7 19. Nd2 Rac8 20. Nf1 Ba8 21. Qd3 Nd7 22. Ne3 Nc5 23. Qd5 Qb8 24. Bxe7 Qxe7 25. Nd5 Qd8 26. Rad1 f6 27. Kh2 Rf7 28. f4 Kh8 29. f5 Qc8 30. g4 Rcf8 31. g5 fxg5 32. Rg1 Rf6 33. f6 g6 34. Rxg5 Nd3 35. Rdg1 Rxf6 36. Nxf6 Rxf6 37. Rxg6 Rxg6 38. Rxg6 Qxg4 39. Rxg4 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Be7 10.Nbd2 Nc5 11.Bc2 Bg4 12.h3 Bh5 13.Qe1 Ne6 14.Nh2 Bg6 15.Bxg6 fxg6 16.Nb3 g5 17.Be3 O-O 18.Nf3 Qd7 19.Qd2 Rxf3 20.gxf3 Nxe5 21.Qe2 Rf8 22.Nd2 Ng6 23.Rfe1 Bd6 24.f4 Nexf4 25.Qf1 Nxh3+ 26.Kh1 g4 27.Qe2 Qf5 1-0"
   },
   {
     id: 11,
@@ -151,7 +137,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional"],
     opening: "Nimzo-Indian Defense",
     description: "Alekhine demonstrates his underappreciated positional mastery in this strategic gem. Patient maneuvering and subtle piece coordination squeeze Colle's position to a standstill before the decisive blow falls.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. Bg5 Bb7 6. e3 h6 7. Bh4 g5 8. Bg3 Ne4 9. Qc2 d6 10. Bd3 Nxg3 11. hxg3 Bxc3+ 12. bxc3 Nd7 13. d5 e5 14. e4 Nf6 15. Nh4 Qd7 16. f3 O-O-O 17. Nf5 Rdg8 18. a4 a5 19. g4 h5 20. g3 hxg4 21. fxg4 Ne8 22. Be2 Nc7 23. Bf3 Qe7 24. Qd2 Rh4 25. Kf2 Rgh8 26. Rh1 Qf6 27. Rxh4 Rxh4 28. Ke3 Qh6+ 29. Kd3 Nb5 30. cxb5 Qh3 31. Kc2 Rxg4 32. Nxd6+ cxd6 33. Qxd6 Rxe4 34. Qxe5 Rd4 35. Kb3 Rxd5 36. Qxb8# 1-0"
+    pgn: "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.Qa4 Bxf3 5.exf3 e6 6.Nc3 Bb4 7.a3 Bxc3+ 8.bxc3 Ne7 9.Rb1 Rb8 10.cxd5 Qxd5 11.Bd3 O-O 12.O-O Qd6 13.Qc2 Ng6 14.f4 Nce7 15.g3 Rfd8 16.Rd1 b6 17.a4 Nd5 18.Bd2 c5 19.f5 exf5 20.Bxf5 cxd4 21.cxd4 Nde7 22.Bb4 Qf6 23.Bxe7 Qxe7 24.Rbc1 Rd5 25.Be4 Rd7 26.d5 Qf6 27.Re1 Rbd8 28.Qc6 Qg5 29.Bxg6 hxg6 30.Qxd7 Rxd7 31.Re8+ Kh7 32.Rcc8 Rd8 33.Rexd8 1-0"
   },
   {
     id: 12,
@@ -165,7 +151,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Endgame"],
     opening: "Ruy Lopez",
     description: "One of the earliest games between these two future world champions. Alekhine outplays the Cuban prodigy in a complex middlegame and converts the advantage in a fine endgame.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Be7 6. Qe2 Nd6 7. Bxc6 bxc6 8. dxe5 Nb7 9. Nc3 O-O 10. Re1 Nc5 11. Nd4 Ne6 12. Nxe6 fxe6 13. Be3 Qd7 14. Rad1 Rxf1+ 15. Rxf1 Bf8 16. Qd2 Rb8 17. b3 Be7 18. Ne2 c5 19. Nd4 cxd4 20. Bxd4 c5 21. Be3 d5 22. exd6 Bxd6 23. Qxd6 Qxd6 24. Rxd6 Rxb3 25. Rxe6 Rxa3 26. Rxc5 Ra6 27. Bc1 g6 28. Be3 Kf7 29. Rc7+ Ke6 30. Rxa7 Rxa7 31. Bxa7 Kd5 32. g4 Kc4 33. f4 Kb4 34. f5 gxf5 35. gxf5 Ka3 36. Bf2 Kb2 37. c4 Kxc1 38. c5 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 Na5 9.Bc2 c5 10.d4 Qc7 11.a4 b4 12.Nbd2 O-O 13.Nf1 cxd4 14.cxd4 Be6 15.Ne3 Rac8 16.Bd2 Nc4 17.Nxc4 Qxc4 18.Rc1 b3 19.Bb1 Qxa4 20.dxe5 dxe5 21.Nxe5 Rxc1 22.Bxc1 Rd8 23.Qe2 h6 24.h3 Bc5 25.Bf4 Nd7 26.Rd1 Bb6 27.Nf3 Bc4 28.Qe1 Nc5 29.Bd6 Nd3 30.Bxd3 Rxd6 31.Ra1 Qb5 32.Bxc4 Qxc4 33.Rc1 Qc2 34.Kh2 Qxb2 35.e5 Bxf2 36.Qf1 Rg6 37.Rc8+ Kh7 38.Rf8 Qc2 39.Rxf7 b2 40.Rb7 Bb6 41.Nd2 Qxd2 42.e6 b1=Q 1-0"
   },
   {
     id: 13,
@@ -179,7 +165,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Sacrifice", "Combination"],
     opening: "Vienna Game",
     description: "In a simultaneous exhibition, Alekhine produces a miniature masterpiece featuring a queen sacrifice followed by a brilliant bishop-led attack. Completed in just 23 moves.",
-    pgn: "1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Bb4 6. Qe2 Nxc3 7. bxc3 Bc5 8. d4 Bb6 9. Bg5 Qd7 10. O-O-O h6 11. Bh4 O-O 12. Bd3 f6 13. exf6 Rxf6 14. Rhe1 Nc6 15. Bg3 Bg4 16. h3 Bxf3 17. gxf3 Re8 18. Qd2 d4 19. cxd4 Rxe1 20. Rxe1 Nxd4 21. Re8+ Kh7 22. Qg2 Nxf3 23. Rxf8 1-0"
+    pgn: "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.exd5 Nxd5 5.Ne4 f5 6.Ng5 Be7 7.N5f3 c6 8.Ne5 O-O 9.Ngf3 b6 10.Bd3 Bb7 11.O-O Re8 12.c4 Nf6 13.Bf4 Nbd7 14.Qe2 c5 15.Nf7 Kxf7 16.Qxe6+ Kg6 17.g4 Be4 18.Nh4+ 1-0"
   },
   {
     id: 14,
@@ -193,7 +179,7 @@ const ALEKHINE_GAMES = [
     themes: ["Endgame", "Rook Ending"],
     opening: "Sicilian Defense",
     description: "A textbook rook and pawn endgame where Alekhine demonstrates the finer points of technique. The conversion is a lesson in precision that endgame manuals have cited for decades.",
-    pgn: "1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Be7 7. O-O O-O 8. f4 a6 9. Bf3 Qc7 10. g4 b5 11. g5 Nfd7 12. f5 Nc5 13. Kh1 b4 14. Ne2 Nd7 15. Ng3 exf5 16. Nxf5 Bxf5 17. Rxf5 Ne6 18. Nf3 Ndc5 19. Be3 Nd4 20. Nxd4 Nxe4 21. Be2 Ng3+ 22. hxg3 Bxg5 23. Bxg5 Qxc2 24. Qxc2 Nxe2 25. Bh6 gxh6 26. Rxf7 Rxf7 27. Nxf7 Kxf7 28. Qxe2 Kg6 29. Qe4+ Kxh6 30. Qxd4 Rf8 31. Kg2 Rf1 32. Rxf1 1-0"
+    pgn: "1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Be7 5.Bg5 O-O 6.e3 Nbd7 7.Rc1 c6 8.Qc2 Re8 9.Bd3 dxc4 10.Bxc4 Nd5 11.Ne4 f5 12.Bxe7 Qxe7 13.Ned2 b5 14.Bxd5 cxd5 15.O-O a5 16.Nb3 a4 17.Nc5 Nxc5 18.Qxc5 Qxc5 19.Rxc5 b4 20.Rfc1 Ba6 21.Ne5 Reb8 22.f3 b3 23.a3 h6 24.Kf2 Kh7 25.h4 Rf8 26.Kg3 Rfb8 27.Rc7 Bb5 28.R1c5 Ba6 29.R5c6 Re8 30.Kf4 Kg8 31.h5 Bf1 32.g3 Ba6 33.Rf7 Kh7 34.Rcc7 Rg8 35.Nd7 Kh8 36.Nf6 Rgf8 37.Rxg7 Rxf6 38.Ke5 1-0"
   },
   {
     id: 15,
@@ -207,7 +193,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "King's Indian"],
     opening: "King's Indian Defense",
     description: "Against the young American prodigy Reshevsky, Alekhine launches a typical King's Indian attack with extraordinary energy. The assault on the kingside is relentless and beautiful.",
-    pgn: "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nbd7 7. Qd2 e5 8. d5 Nc5 9. h4 h5 10. Nh3 a5 11. Ng5 c6 12. Be2 cxd5 13. cxd5 Bd7 14. O-O-O b5 15. f4 b4 16. Nd1 Ne8 17. fxe5 dxe5 18. g4 hxg4 19. h5 gxh5 20. Rxh5 Nf6 21. Rh6 exd4 22. Bxd4 Bxd4 23. Qxd4 Qb6 24. Rdh1 Qxd4 25. R1h4 Qxe4 26. Nf5 Ne2+ 27. Kd1 Nf4 28. Rh8+ Kxh8 29. Rxh8+ Kxh8 30. Ne7+ 1-0"
+    pgn: "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.c4 Nb6 6.Be2 dxe5 7.Nxe5 Bxe2 8.Qxe2 Qxd4 9.O-O N8d7 10.Nxd7 Nxd7 11.Nc3 c6 12.Be3 Qe5 13.Rad1 e6 14.Qf3 O-O-O 15.Bxa7 Qa5 16.Bd4 Qf5 17.Qg3 e5 18.Be3 Bb4 19.Na4 Ba5 20.f4 Bc7 21.b3 f6 22.fxe5 Qe6 23.h3 Rhg8 24.Bd4 Nxe5 25.Qc3 Nd7 26.c5 Rge8 27.b4 Nb8 28.Nb6+ Bxb6 29.cxb6 Qxa2 30.Qg3 Rd7 31.Bc5 Qf7 32.Ra1 Qg6 33.Qh2 Re5 34.Ra8 Rd2 35.Rxb8+ Kxb8 36.Qxe5+ 1-0"
   },
   {
     id: 16,
@@ -221,7 +207,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Mating Attack"],
     opening: "Nimzo-Indian Defense",
     description: "A beautifully constructed mating net draped across the entire board. Alekhine weaves his pieces into a web from which there is no escape. Textbook coordination of all forces.",
-    pgn: "1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Bg5 Be7 6. e3 O-O 7. Qc2 d5 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Bd3 Re8 12. O-O c5 13. Rfe1 Nc6 14. Bb5 Rac8 15. Bxc6 Rxc6 16. Ne5 Rcc8 17. Qb3 cxd4 18. exd4 Rc4 19. Nxf7 Qxf7 20. Qxd5 Qxd5 21. Re8+ Rxe8 22. Rxe8# 1-0"
+    pgn: "1.d4 d5 2.Nf3 e6 3.c4 Nf6 4.Nc3 Nbd7 5.e3 Bd6 6.Nb5 Be7 7.Qc2 c6 8.Nc3 O-O 9.Bd3 dxc4 10.Bxc4 c5 11.dxc5 Bxc5 12.O-O b6 13.e4 Bb7 14.Bg5 Qc8 15.Qe2 Bb4 16.Bd3 Bxc3 17.Rfc1 Nxe4 18.Bxe4 Bxe4 19.Qxe4 Nc5 20.Qe2 Ba5 21.Rab1 Qa6 22.Rc4 Na4 23.Bf6 Rfc8 24.Qe5 Rc5 25.Qg3 g6 26.Rxa4 Qd3 27.Rf1 Rac8 28.Rd4 Qf5 29.Qf4 Qc2 30.Qh6 1-0"
   },
   {
     id: 17,
@@ -235,7 +221,7 @@ const ALEKHINE_GAMES = [
     themes: ["Sacrifice", "Attack", "Combination"],
     opening: "French Defense",
     description: "A famous queen sacrifice on move 18 initiates a spectacular combination that demonstrates Alekhine's extraordinary depth of calculation. The game was cited by Alekhine himself as one of his favorites.",
-    pgn: "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Bxg5 7. hxg5 Qxg5 8. Nh3 Qe7 9. Nf4 Nf8 10. Qg4 f5 11. exf6 gxf6 12. O-O-O c5 13. Qh4 Nbd7 14. dxc5 Ne5 15. Nfe2 Nf7 16. Nf4 e5 17. Nd5 Qd8 18. Qxf6 Rg8 19. Rh8 Rxh8 20. Qxh8+ Ke7 21. c6 bxc6 22. Nc7 Rb8 23. Qh4+ Kf8 24. Nb5 Bd7 25. Nxd7+ Nxd7 26. Be2 Qe8 27. Bg4 Qe7 28. Rd8+ 1-0"
+    pgn: "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 Bxg5 7.hxg5 Qxg5 8.Nh3 Qe7 9.Nf4 Nf8 10.Qg4 f5 11.exf6 gxf6 12.O-O-O c6 13.Re1 Kd8 14.Rh6 e5 15.Qh4 Nbd7 16.Bd3 e4 17.Qg3 Qf7 18.Bxe4 dxe4 19.Nxe4 Rg8 20.Qa3 Qg7 21.Nd6 Nb6 22.Ne8 Qf7 23.Qd6+ 1-0"
   },
   {
     id: 18,
@@ -249,7 +235,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Attack", "Positional"],
     opening: "Nimzo-Indian Defense",
     description: "At the legendary AVRO tournament featuring the world's eight best players, Alekhine defeats the American master Fine in a game combining positional subtlety with a decisive attacking finale.",
-    pgn: "1. d4 e6 2. c4 Nf6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. Nf3 Bxc3+ 7. bxc3 d6 8. O-O e5 9. Nd2 O-O 10. f3 Re8 11. e4 exd4 12. cxd4 cxd4 13. Nb3 d3 14. Bc2 dxc2 15. Qxd6 Qxd6 16. Nxd6 Red8 17. Nxc8 Raxc8 18. Bg5 Ne8 19. Rfd1 Nc7 20. Bh4 Ne7 21. Rd6 Rxd6 22. Bxd8 Rxd8 23. Rxd8+ Nxd8 24. e5 f6 25. exf6 gxf6 26. Kf2 Kf7 27. Ke3 Ke6 28. Kd4 Ned5 29. g4 h6 30. h4 Ne7 31. f4 Nd5 32. g5 hxg5 33. hxg5 fxg5 34. fxg5 Ne7 35. g6 Nd5 36. Ke5 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Be7 10.Nd4 Nxe5 11.f3 Nf6 12.Qe2 Nc4 13.Bc2 Qd7 14.b3 Nb6 15.Re1 O-O 16.Bg5 Rfe8 17.Nd2 Nh5 18.Bxe7 Rxe7 19.Qe5 g6 20.g4 Ng7 21.b4 Rae8 22.Qf4 Na4 23.Re3 Qd6 24.Qxd6 cxd6 25.Rae1 Rc7 26.Nb1 Bd7 27.Rxe8+ Bxe8 28.Bb3 Nb6 29.Kf2 Kf8 30.Rd1 Ne6 31.Ne2 Bc6 32.Na3 Ke7 33.Nc2 Nc4 34.Ne3 h6 35.h4 Nb6 36.Bxd5 Bxd5 37.Nxd5+ Nxd5 38.Rxd5 Rc4 39.Ke3 Kd7 40.f4 Kc6 41.Rd1 Kd7 42.Rf1 Ke7 43.Kd3 g5 44.hxg5 hxg5 45.f5 Nf8 46.f6+ Kd7 47.a4 Ng6 48.axb5 Ne5+ 49.Kd2 axb5 50.Nd4 Nxg4 51.Nxb5 Ne5 52.Nd4 g4 53.Kc2 Rc8 54.Nf5 Rg8 55.Ng3 Rh8 56.Rf2 Nf3 57.Re2 Rh3 58.Nf5 Ne5 59.b5 Rf3 60.Nd4 Rxf6 61.b6 Kc8 62.Nb5 g3 63.Kb3 Rg6 64.Rg2 f5 65.Ra2 Kb7 66.Rd2 f4 67.Nxd6+ Rxd6 68.Rxd6 g2 1-0"
   },
   {
     id: 19,
@@ -263,7 +249,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Pawn Storm"],
     opening: "King's Gambit",
     description: "A savage king's gambit featuring a pawn storm that overwhelms Black's defenses. Alekhine plays with the tactical sharpness and unconditional ambition that made him feared throughout his career.",
-    pgn: "1. e4 e5 2. f4 exf4 3. Nf3 Nf6 4. e5 Nh5 5. d4 d6 6. Nc3 dxe5 7. dxe5 Nc6 8. Bc4 Nb4 9. O-O Nxc2 10. Qxc2 g6 11. Nd5 c6 12. Nb6 Rb8 13. Bxf4 Nxf4 14. Rxf4 Be7 15. Bg5 Bxg5 16. Nxg5 h6 17. Nf7 Qe7 18. Nd6+ Ke7 19. Qc5 Qxc5 20. Re1+ Kd8 21. Nde8 Be6 22. Rxe6 fxe6 23. Rf8+ Ke7 24. Rxb8 1-0"
+    pgn: "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 d6 6.Nf3 Nf6 7.Qb3 Qd7 8.Ng5 Ne5 9.Bb5 c6 10.f4 cxb5 11.fxe5 dxe5 12.Be3 Bd6 13.Nxb5 O-O 14.Rd1 Ne8 15.O-O Qe7 16.Nxd6 Nxd6 17.Qa3 Rd8 18.Nxf7 Bg4 19.Rxd6 Re8 20.Bg5 Qc7 21.Qb3 Be2 22.Nxe5+ Kh8 23.Rc1 Rf8 24.Qd1 Qa5 25.Qxe2 Qxe5 26.Rd5 1-0"
   },
   {
     id: 20,
@@ -277,7 +263,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Endgame"],
     opening: "Queen's Gambit Declined",
     description: "In the rematch for the World Championship, Alekhine outplays Euwe in a strategic battle where Black tries for a draw but Alekhine's superior understanding converts the smallest of advantages.",
-    pgn: "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5 9. Nxg5 hxg5 10. Bxg5 Nbd7 11. exf6 Bb7 12. g3 c5 13. d5 Qb6 14. Bg2 O-O-O 15. O-O b4 16. dxe6 bxc3 17. Bxb7+ Kxb7 18. exd7+ Rxd7 19. bxc3 Rxd1 20. Raxd1 Be7 21. Bxe7 Rxe7 22. Rd6 Qa5 23. Rfd1 Qxc3 24. R1d3 Qa1+ 25. Kg2 c3 26. Ra3 Qb2 27. Rxa7+ Kxa7 28. Rd7+ Kb6 29. Rxe7 c2 30. Re1 Qxa3 31. Rxc2 1-0"
+    pgn: "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Ne5 e6 7.Bg5 Bb4 8.Nxc4 Qd5 9.Bxf6 Qxc4 10.Qd2 gxf6 11.e4 Qb3 12.exf5 Nd7 13.fxe6 fxe6 14.Be2 O-O-O 15.O-O e5 16.dxe5 Nxe5 17.Qc1 Bxc3 18.bxc3 Rhg8 19.Qe3 Kb8 20.g3 Rd7 21.Rab1 Qc2 22.Rfe1 Qd2 23.Qxd2 Rxd2 24.f4 Ng6 25.Bc4 Rgd8 26.Re6 R8d6 27.Rbe1 Kc7 28.Rxd6 Rxd6 29.h4 Kd7 30.Kf2 Ne7 31.Kf3 Nd5 32.Bd3 h6 33.Bf5+ Kd8 34.Kg4 Ne7 35.Bb1 Ke8 36.Kh5 Kf7 37.Ba2+ Kf8 38.Kxh6 Rd2 39.Be6 Rd3 40.g4 Rxc3 41.g5 1-0"
   },
   {
     id: 21,
@@ -291,7 +277,7 @@ const ALEKHINE_GAMES = [
     themes: ["Combination", "Attack", "Sacrifice"],
     opening: "French Defense",
     description: "Against the renowned attacking player Spielmann, Alekhine produces an explosive combination featuring a spectacular knight sacrifice. The attacker is out-attacked in brilliant style.",
-    pgn: "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. exd5 Qxd5 6. Bxf6 gxf6 7. Qd2 Bxc3 8. Qxc3 Nc6 9. Nf3 Qe4+ 10. Qxe4 dxe4 11. Nd2 f5 12. g3 Bd7 13. Bg2 O-O-O 14. O-O Ne7 15. c4 c5 16. b4 cxd4 17. Rad1 Nc6 18. bxc5 Bc6 19. Bxc6 bxc6 20. Nxe4 fxe4 21. Rxd4 Rxd4 22. Re1 Kd7 23. Rxe4 Re8 24. c5 Kc7 25. Rh4 Rh8 26. Rxh7+ Rxh7 27. f4 Rh3 28. Kg2 Rxg3+ 29. Kf2 Rb8 30. Ke2 Rb2+ 31. Kd1 Rxh2 32. c6 1-0"
+    pgn: "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.exd5 Nxd5 6.Bxe7 Qxe7 7.Qd2 Qb4 8.Nxd5 Qxd2+ 9.Kxd2 exd5 10.Re1+ Be6 11.Nh3 Nc6 12.Bb5 Kd7 13.Nf4 Rae8 14.c4 Kd6 15.c5+ Kd7 16.Re5 f6 17.Rxe6 Rxe6 18.Nxe6 Kxe6 19.Bxc6 bxc6 20.Re1+ Kd7 21.Kc3 Rb8 22.Re3 Rf8 23.Rg3 Rf7 24.Kb4 Re7 25.Kc3 Rf7 26.Rh3 h6 27.Kd2 Re7 28.Ra3 Re4 29.Ra4 Kc8 30.f3 Rh4 31.h3 Kb7 32.Ke3 f5 33.Rb4+ Kc8 34.a4 g5 35.a5 g4 36.hxg4 fxg4 37.a6 gxf3 38.gxf3 Rh1 39.Rb7 Re1+ 40.Kf4 Rd1 41.Ke5 Re1+ 42.Kf5 Rd1 43.Rxa7 Rxd4 44.Ra8+ Kd7 45.f4 Ra4 46.a7 h5 47.b3 Ra1 48.Ke5 Re1+ 49.Kf6 Ra1 50.Ke5 Re1+ 51.Kd4 Rd1+ 52.Kc3 Ra1 53.f5 Ke7 54.Kd4 h4 55.Ke5 Re1+ 56.Kf4 Ra1 57.Kg5 Rg1+ 58.Kxh4 Ra1 59.Kg5 Rg1+ 60.Kf4 Ra1 61.Ke5 Re1+ 62.Kd4 Ra1 63.Kc3 Ra3 64.Kb2 Ra6 65.b4 Kf7 66.Kb3 Ra1 67.f6 Ra6 68.b5 cxb5 69.Kb4 1-0"
   },
   {
     id: 22,
@@ -305,7 +291,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Endgame"],
     opening: "Nimzo-Indian Defense",
     description: "One of the great positional games of the 1920s. Alekhine slowly strangles Johner's position over 70 moves with a masterful demonstration of long-term strategic planning. Famous in every textbook.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Bd3 Bb7 6. Nf3 Ne4 7. O-O f5 8. Qc2 Bxc3 9. bxc3 O-O 10. Nd2 Qh4 11. Nxe4 fxe4 12. Be2 d6 13. f3 exf3 14. Bxf3 Bxf3 15. Rxf3 Nd7 16. Qe4 Rae8 17. e4 c5 18. d5 e5 19. a4 Nf6 20. Qb7 Nd7 21. Qe4 Nf6 22. Qd3 Qd8 23. Ra3 Re7 24. Rb3 Rb8 25. Rb5 Nd7 26. Raf3 Nf6 27. g4 Nh7 28. Qd2 Nf8 29. Rxf8+ Rxf8 30. Rxb6 Rxb6 31. Qxb6 Qb8 32. Qxb8 Rxb8 33. Ba3 Ra8 34. Bxc5 Kf7 35. Ba3 Ke8 36. Kf2 Kd8 37. Ke3 Kc7 38. Bb4 Kb6 39. Kd3 Re8 40. c5+ Ka6 41. c4 h5 42. gxh5 Rxh5 43. h4 Rh8 44. Ba3 Rf8 45. Ke3 Rb8 46. Kd3 Rf8 47. Bb2 Rh8 48. Be5 Rg8 49. Ke3 Re8 50. Kf3 Rh8 51. Bg7 Rg8 52. Be5 Rh8 53. h5 Rg8 54. Kf2 Rh8 55. Kg3 Rg8 56. Kh4 Rh8 57. Bg7 Rg8 58. Bc3 Re8 59. Kxg4 Rg8+ 60. Kf3 Rf8+ 61. Ke3 Rxf1 62. Kxf1 1-0"
+    pgn: "1.d4 Nf6 2.Nf3 b6 3.Bg5 Bb7 4.e3 e6 5.Bd3 h6 6.Bh4 c5 7.O-O Be7 8.Nbd2 d6 9.Qe2 O-O 10.c3 Nh5 11.Bxe7 Qxe7 12.a4 Nc6 13.Ba6 Rad8 14.Bxb7 Qxb7 15.Rfd1 Nf6 16.e4 Rd7 17.e5 dxe5 18.Nxe5 Rd5 19.Nxc6 Qxc6 20.dxc5 bxc5 21.Nf3 Rb8 22.Rxd5 Qxd5 23.Ne5 Rd8 24.Nc4 Qb7 25.Rd1 Rd5 26.Ne3 Rxd1+ 27.Nxd1 Qb3 28.a5 Qa4 29.a6 Nd5 30.g3 c4 31.Ne3 Nxe3 32.Qxe3 Qxa6 33.Qc5 Qa1+ 34.Kg2 Qxb2 35.Qxc4 a5 36.Qc6 Qa2 37.c4 a4 38.Qa8+ Kh7 39.Qe4+ f5 40.Qxe6 Qc2 41.Qa6 f4 42.c5 Qe4+ 43.f3 Qc2+ 44.Kh3 Qf5+ 45.Kg2 Qc2+ 46.Kh3 Qb3 47.Qe2 1-0"
   },
   {
     id: 23,
@@ -319,7 +305,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Queenside Attack"],
     opening: "Catalan Opening",
     description: "A brilliant queenside pawn advance that creates chaos in Black's camp. Alekhine's handling of the Catalan is a model of how to exploit the long diagonal and convert positional pressure into a winning attack.",
-    pgn: "1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O Nbd7 7. Qc2 c6 8. Nbd2 b6 9. e4 dxe4 10. Nxe4 Nxe4 11. Qxe4 Bb7 12. Qh4 c5 13. dxc5 Bxc5 14. Ne5 Nxe5 15. Qxe7 Nxc4 16. Qxe6 fxe6 17. Bxb7 Rb8 18. Bg2 Nd2 19. Re1 Ne4 20. Bxe4 Rxf2 21. Bg5 Qxg5 22. Bg6 hxg6 23. Kxf2 Rf8+ 24. Ke3 Qh4 25. g4 Rf3+ 26. Ke2 Qxg4+ 27. Kd2 Qxe1+ 28. Kxe1 Rxa3 29. bxa3 b5 30. Kd2 b4 31. axb4 a5 32. bxa5 g5 33. a6 g4 34. a7 g3 35. hxg3 g5 36. a8=Q+ Kf7 37. Qa7+ Kf6 38. Qxe6# 1-0"
+    pgn: "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.O-O Nc6 7.Qe2 a6 8.Nc3 b5 9.Bb3 b4 10.d5 Na5 11.Ba4+ Bd7 12.dxe6 fxe6 13.Rd1 bxc3 14.Rxd7 Nxd7 15.Ne5 Ra7 16.bxc3 Ke7 17.e4 Nf6 18.Bg5 Qc7 19.Bf4 Qb6 20.Rd1 g6 21.Bg5 Bg7 22.Nd7 Rxd7 23.Rxd7+ Kf8 24.Bxf6 Bxf6 25.e5 1-0"
   },
   {
     id: 24,
@@ -333,21 +319,7 @@ const ALEKHINE_GAMES = [
     themes: ["Endgame", "King and Pawn"],
     opening: "Queen's Gambit",
     description: "A celebrated king and pawn endgame where Alekhine's precise king marching technique is on full display. A positional endgame classic that appears in every serious endgame textbook.",
-    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. Bg5 O-O 6. e3 Nbd7 7. Qc2 c6 8. Bd3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Qxc3 e5 13. dxe5 Nxe5 14. Nxe5 Qxe5 15. Rfd1 Bg4 16. Rd4 Bh5 17. Qd2 Rad8 18. Rad1 Rxd4 19. Qxd4 Qxd4 20. Rxd4 Re8 21. Kf1 Bg6 22. Ke2 Kf8 23. Kd2 Ke7 24. Kc3 Kd6 25. Rd2 f5 26. f4 b6 27. b4 c5 28. bxc5+ bxc5 29. a4 h5 30. a5 h4 31. h3 c4 32. Bd5 Rb8 33. Rc2 Rb3+ 34. Kd4 Rd3+ 35. Ke5 Rxd5+ 36. Kxd5 c3 37. Rxc3 1-0"
-  },
-  {
-    id: 25,
-    rank: 25,
-    title: "The Pawn Roller",
-    white: "Alexander Alekhine",
-    black: "Freeman",
-    year: 1924,
-    event: "New York Simul",
-    result: "1-0",
-    themes: ["Attack", "Pawn Storm", "Combination"],
-    opening: "Scotch Game",
-    description: "Even in a simultaneous exhibition, Alekhine's imagination runs free. A rolling pawn mass on the kingside steamrolls the opponent's defenses in a game that would be remarkable in any context.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. exd5 cxd5 8. O-O Be7 9. h3 O-O 10. Nc3 Re8 11. Re1 c6 12. Bg5 h6 13. Bh4 Bd6 14. Qd2 Be5 15. Rae1 Bg4 16. hxg4 Nxg4 17. f3 Qh4 18. fxg4 Qxh4 19. g5 hxg5 20. Rxe5 Rxe5 21. Bxg5 Qh5 22. Bf4 Re1+ 23. Rxe1 Qxd1+ 24. Rxd1 g6 25. Bxd5 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.d4 exd4 5.Nxd4 g6 6.Bg5 Bg7 7.c3 h6 8.Bh4 O-O 9.O-O Nxd4 10.cxd4 c6 11.Bc4 g5 12.Bg3 d5 13.exd5 Nxd5 14.Be5 Be6 15.Nd2 f6 16.Bg3 Qb6 17.Re1 Rfe8 18.Ne4 f5 19.Nc5 Bf7 20.Bd6 Qxb2 21.Bxd5 Bxd5 22.Rb1 Qxd4 23.Rxb7 Qg4 24.f3 Bd4+ 25.Kh1 Bxf3 1-0"
   },
   {
     id: 26,
@@ -361,7 +333,7 @@ const ALEKHINE_GAMES = [
     themes: ["Combination", "Attack", "Sacrifice"],
     opening: "King's Indian Defense",
     description: "Against the great American tactician Marshall, Alekhine unleashes a thunderbolt combination that completely overwhelms Black's defenses. The positions are so sharp that only perfect play by White wins.",
-    pgn: "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Nf3 c6 7. Qb3 Qb6 8. cxd5 Nxd5 9. Nxd5 cxd5 10. Rc1 Nc6 11. Bd3 Be6 12. Qa3 Bf5 13. Bxf5 gxf5 14. Qb3 Qxb3 15. axb3 Rfd8 16. Ne5 Nxe5 17. Bxe5 Bxe5 18. dxe5 f4 19. exf4 d4 20. O-O d3 21. Rfd1 Rd4 22. b4 b6 23. b5 Rxf4 24. Rc7 Rxf2 25. Rxa7 d2 26. Rd7 Rxd7 27. Rxd7 Rf1+ 28. Kxf1 d1=Q+ 29. Ke2 Qxd7 30. Ke3 1-0"
+    pgn: "1.d4 Nf6 2.Nf3 e6 3.c4 d5 4.Bg5 h6 5.Bxf6 Qxf6 6.Nc3 Bb4 7.Qb3 c5 8.cxd5 cxd4 9.Qxb4 dxc3 10.dxe6 Bxe6 11.Qxc3 Nc6 12.e3 Qxc3+ 13.bxc3 Rc8 14.Bd3 O-O 15.Nd4 Bd5 16.f3 Ne5 17.Kd2 Rc5 18.e4 Bc4 19.Bxc4 Nxc4+ 20.Ke2 Na3 21.Rac1 Rfc8 22.Nf5 R8c7 23.Rhd1 Nb5 24.c4 Na3 25.Ne3 Kh7 26.Rd5 R5c6 27.Kd3 b5 28.c5 b4 29.Nf5 Rg6 30.Nd4 Rxg2 31.c6 Rxa2 32.Rd7 Rc8 33.Rxa7 b3 34.Nxb3 Nc2 35.Rxa2 Nb4+ 36.Kd4 Nxa2 37.Rc4 Kg6 38.Kc5 Kf6 39.Rd4 Nc3 40.Rc4 Ne2 41.Kb6 Rb8+ 42.Ka7 Rxb3 43.c7 Ra3+ 44.Kb7 Rb3+ 45.Kc6 1-0"
   },
   {
     id: 27,
@@ -375,7 +347,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Rook Attack", "Combination"],
     opening: "Dutch Defense",
     description: "Against the witty Tartakower, Alekhine's rooks run amok in a spectacular open file raid. The final combination is pure chess poetry, with the rooks dominating every line.",
-    pgn: "1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Bb4+ 5. Nd2 O-O 6. Ngf3 Qe8 7. O-O d6 8. b3 e5 9. dxe5 dxe5 10. Bb2 e4 11. Nd4 Nc6 12. Nxc6 bxc6 13. c5 Bxd2 14. Qxd2 Ng4 15. h3 Nxf2 16. Rxf2 f4 17. Bxe4 fxg3 18. Rxf8+ Qxf8 19. Rf1 Qe7 20. Rf7 Qxf7 21. Bxf7+ Kxf7 22. Qd7+ Kf6 23. Qxc6 g2 24. Kxg2 Bxh3+ 25. Kg1 Be6 26. Qxc7 Rd8 27. c6 Rd1+ 28. Kh2 Rd6 29. Qb8 h5 30. c7 h4 31. Qb6 1-0"
+    pgn: "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Bxf6 gxf6 6.Nxe4 f5 7.Nc3 Bg7 8.Nf3 O-O 9.Qd2 c5 10.dxc5 Qa5 11.Nb5 Qxd2+ 12.Nxd2 Na6 13.c3 Nxc5 14.Nb3 Nxb3 15.axb3 a6 16.Nd6 Rb8 17.b4 Rd8 18.O-O-O Be5 19.Nxc8 Rxd1+ 20.Kxd1 Rxc8 21.Kc2 Kf8 22.Be2 Rc7 23.Ra1 Ke7 24.h3 f4 25.Kb3 Rd7 26.Ra5 Bc7 27.Rh5 Rd2 28.Bf3 b6 29.Rxh7 Rxf2 30.Bh5 Rxg2 31.Rxf7+ Kd8 32.Bg4 e5 33.Rd7+ Kc8 34.Rd2+ Rxg4 35.hxg4 f3 36.Rd5 e4 37.Rf5 Bg3 38.g5 Kd7 39.g6 Ke6 40.g7 Kxf5 41.g8=Q Bf4 42.Qf7+ Kg4 43.Qg6+ Bg5 44.Qxe4+ Kg3 45.Qg6 Kg4 46.Qxb6 1-0"
   },
   {
     id: 28,
@@ -389,7 +361,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination"],
     opening: "Queen's Gambit Declined",
     description: "The opening game of Alekhine's first match with Euwe, later to become his successor as World Champion. Alekhine demonstrates his attacking superiority with a brilliant combination in the middlegame.",
-    pgn: "1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Bg5 Be7 5. Nc3 O-O 6. e3 Nbd7 7. Qc2 c5 8. cxd5 cxd4 9. exd4 Nxd5 10. Bxe7 Qxe7 11. Nxd5 exd5 12. Bd3 Nf6 13. O-O Bg4 14. Rfe1 Qd6 15. Bb5 Bxf3 16. gxf3 Rac8 17. Qb3 Rfe8 18. Rxe8+ Nxe8 19. Re1 Nf6 20. Re5 Rc7 21. Rxd5 Qxd5 22. Qxb7 Rd7 23. Qb8+ Rd8 24. Qc7 Qe6 25. Bxd7 Qxd7 26. Qxd7 Nxd7 27. a4 Kf8 28. Kf1 Ke7 29. Ke2 Kd6 30. f4 f6 31. f5 Ne5 32. b3 Nf3 33. Kd3 Ne5+ 34. Kc3 Kc5 35. b4+ Kd6 36. a5 1-0"
+    pgn: "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 O-O 5.Be3 d6 6.f3 e5 7.d5 c6 8.Qd2 cxd5 9.cxd5 Ne8 10.O-O-O f5 11.Kb1 Nd7 12.Nh3 a6 13.exf5 gxf5 14.g4 fxg4 15.Ng5 Ndf6 16.Bd3 Qe7 17.f4 e4 18.Ngxe4 Nxe4 19.Nxe4 Bf5 20.Ng3 Bxd3+ 21.Qxd3 Qf6 22.Rd2 Qf7 23.h3 gxh3 24.Rxh3 Qg6 25.f5 Qg4 26.Rdh2 Rc8 27.f6 Rxf6 28.Qxh7+ Kf8 29.Rh1 Qg6+ 30.Qxg6 Rxg6 31.Nf5 Be5 32.Rf3 Nf6 33.Rh8+ Rg8 34.Rxg8+ Kxg8 35.Ne7+ 1-0"
   },
   {
     id: 29,
@@ -403,7 +375,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Bishops"],
     opening: "English Opening",
     description: "A masterclass in the power of the bishop pair. Alekhine establishes dominant diagonal control and gradually converts it into a decisive attack. Instructive from first move to last.",
-    pgn: "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 Nbd7 6. e3 Qa5 7. cxd5 Nxd5 8. Rc1 Bb4 9. Qd2 Nxc3 10. bxc3 Ba3 11. Rc2 b6 12. Bd3 Bb7 13. O-O O-O 14. Rfc1 c5 15. e4 cxd4 16. cxd4 Rac8 17. d5 Rxc2 18. Rxc2 exd5 19. exd5 Nf6 20. d6 Rd8 21. Be3 Ne4 22. Qc1 Bc6 23. Bb6 Rb8 24. Ba7 Ra8 25. Bxb6 Nxd6 26. Rxc6 Nxc6 27. Ba6 Rxa7 28. Bxc8 1-0"
+    pgn: "1.c4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 Be7 6.Nf3 O-O 7.Rc1 c6 8.Bd3 dxc4 9.Bxc4 Nd5 10.Bxe7 Qxe7 11.Ne4 N7f6 12.Ng3 Qb4+ 13.Qd2 Qxd2+ 14.Kxd2 Rd8 15.Rhd1 Bd7 16.Ne5 Be8 17.Ke2 Kf8 18.f4 g6 19.Kf3 Rac8 20.Bb3 Rc7 21.Ne2 Ne7 22.g4 Rdc8 23.Ng3 Nfd5 24.Ne4 Rd8 25.Nc5 b6 26.Na6 Rcc8 27.e4 f6 28.exd5 fxe5 29.d6 Rxd6 30.fxe5 Rd5 31.Bxd5 Nxd5 32.a3 g5 33.Nb4 Ne7 34.Nd3 Nd5 35.h4 gxh4 36.Nf4 Nxf4 37.Kxf4 Rd8 38.Kg5 Kg7 39.Kxh4 Rd5 40.Kg5 Rd8 41.Kf4 Rd7 42.Ke3 Rb7 43.b4 a6 44.Rf1 Ra7 45.Rf6 Re7 46.a4 Kg8 47.a5 b5 48.d5 exd5 49.e6 Kg7 50.g5 h5 51.Kd4 Rc7 52.Kc5 Rc8 53.Kb6 d4 54.e7 1-0"
   },
   {
     id: 30,
@@ -417,7 +389,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Weak Squares"],
     opening: "Nimzo-Indian Defense",
     description: "A perfect strategic game where Alekhine exploits a backward pawn and the weak squares around it with ruthless precision. A landmark game in positional chess literature.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. g3 Bb7 6. Bg2 O-O 7. O-O d5 8. cxd5 exd5 9. Ne5 Nbd7 10. Nxd7 Nxd7 11. Qc2 c5 12. Rd1 Re8 13. dxc5 Nxc5 14. a3 Bxc3 15. bxc3 Rc8 16. Qb2 Ne4 17. Bxe4 dxe4 18. c4 Qg5 19. Ba3 Rc6 20. Rac1 Rce6 21. Qb5 Re5 22. Qxg5 Rxg5 23. h4 Rg4 24. Rd4 Rxd4 25. cxd4 h5 26. Rc3 Bc6 27. Bb4 Bxa4 28. Ra3 Bc6 29. Rxa7 b5 30. Rxf7 b4 31. Rxg7+ Kxg7 32. Bxe7 b3 33. d5 Bxd5 34. Bd6 Bxa2 35. Bxe5+ Kf7 36. Bc3 b2 37. Bxb2 1-0"
+    pgn: "1.d4 Nf6 2.c4 g6 3.g3 c6 4.Bg2 d5 5.Nf3 Bg7 6.O-O O-O 7.Nc3 dxc4 8.Ne5 Be6 9.e4 Nbd7 10.f4 Qb6 11.f5 gxf5 12.exf5 Bd5 13.Nxd5 cxd5 14.Nxd7 Nxd7 15.Bxd5 Rad8 16.Be3 Qxb2 17.Bxc4 Nb6 18.Bb3 Rxd4 19.Qh5 Re4 20.f6 Rxe3 21.Qg5 Rxg3+ 22.Qxg3 exf6 23.Rad1 Kh8 24.Kh1 Bh6 25.Qd6 Bg7 26.Qe7 Qe5 27.Qxb7 f5 28.Rde1 Qf6 29.Qf3 Qc3 30.Qxf5 Nc8 31.Bc2 Qc6+ 32.Rf3 Qg6 33.Qxg6 hxg6 34.Bxg6 Kg8 35.Bxf7+ 1-0"
   },
   {
     id: 31,
@@ -431,7 +403,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Rook Lift", "Strategy"],
     opening: "Queen's Gambit Declined",
     description: "A game famous for Alekhine's instructive use of the rook lift — swinging a rook to the kingside via the third rank to join the attack. The technique became a staple of attacking chess.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Qc2 c5 8. dxc5 Qa5 9. cxd5 Nxd5 10. Bxe7 Nxc3 11. bxc3 Nxe7 12. c6 bxc6 13. Rd1 Rd8 14. Be2 Qc7 15. c4 c5 16. O-O Bb7 17. Rd6 Rac8 18. Rfd1 Nf5 19. R6d2 h6 20. Nd4 Nxd4 21. exd4 cxd4 22. c5 Qc6 23. Bd3 g6 24. Bh7+ Kxh7 25. Qxg6+ Kh8 26. Rxd4 Rxd4 27. Rxd4 Qe8 28. Qh5 Qg6 29. Qxg6 fxg6 30. Rd7 Bc8 31. Rxa7 1-0"
+    pgn: "1.c4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 d6 5.e3 Nge7 6.a3 a5 7.Nge2 O-O 8.d4 Bb6 9.O-O Bd7 10.b3 Qc8 11.Bb2 Bh3 12.Qd3 Bxg2 13.Kxg2 exd4 14.exd4 Qf5 15.Rad1 Rae8 16.Rd2 Qg5 17.Rfd1 Ba7 18.Nf4 Nf5 19.Nb5 Bb8 20.Nd5 Re6 21.Bc1 Qg4 22.Nf4 Nh4+ 23.Kh1 Nf3 24.Nxe6 fxe6 25.Rg1 Rf5 26.Rg2 Nxd2 27.Bxd2 Rf3 28.Be3 Ne7 29.Nc3 Nf5 30.Rg1 Nxe3 31.fxe3 Rf2 32.Qe4 Qxe4+ 33.Nxe4 Re2 34.Ng5 Rxe3 35.Kg2 Ba7 36.Rd1 h6 37.Kf2 Re5 38.Nf3 Re4 39.Re1 Bxd4+ 40.Nxd4 Rxd4 41.Rxe6 Rd2+ 42.Ke1 Rxh2 43.Re7 Rb2 44.Rxc7 Rxb3 45.Kf2 Rxa3 46.Rxb7 Rc3 47.Ra7 Rxc4 48.Rxa5 Rc7 49.Ra6 Rd7 50.Kf3 Kf7 51.Ke4 Ke6 52.Ra8 d5+ 53.Kf4 d4 54.Ke4 d3 55.Ra1 d2 56.Rd1 Kf6 57.Kf4 Rd4+ 58.Kf3 Kf5 59.Ke3 Rd7 60.Kf3 Rd3+ 1-0"
   },
   {
     id: 32,
@@ -445,7 +417,7 @@ const ALEKHINE_GAMES = [
     themes: ["Sacrifice", "Attack", "Combination"],
     opening: "Ruy Lopez",
     description: "A spectacular and intuitive piece sacrifice in the opening phase that gives Alekhine a devastating attack. The sacrifice cannot be refuted — it launches an unstoppable kingside assault.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. c3 g6 6. Nbd2 Bg7 7. Nf1 O-O 8. Bg5 h6 9. Bxf6 Qxf6 10. Ne3 Nd8 11. Nc4 Ne6 12. Bc6 bxc6 13. d4 exd4 14. cxd4 Bd7 15. Ne3 c5 16. d5 Nc7 17. O-O Rb8 18. b3 Nb5 19. Nd2 Nc3 20. Qc2 Nxe4 21. Nxe4 Qxf2+ 22. Rxf2 Bxb2 23. Rb1 Bxb1 24. Qxb1 c4 25. Nd5 Rfe8 26. Rf3 Bxd4+ 27. Kh1 Be5 28. Ng3 Bxg3 29. Rxg3 cxb3 30. axb3 Rxb3 31. Nxc7 Rxe3 32. Rxe3 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.e5 Qe7 6.f4 d6 7.Bb5 Bd7 8.Bxc6 bxc6 9.O-O dxe5 10.fxe5 Ng4 11.Nc3 Qh4 12.Nf3 Qh5 13.Ne4 Be7 14.Qd4 Be6 15.Bg5 Bxg5 16.Nexg5 O-O 17.h3 Nh6 18.Qe4 Bf5 19.Qxc6 Qg6 20.Qxg6 Bxg6 21.Nd4 Rab8 22.b3 Rfe8 23.Rad1 Rb6 24.c4 Rxe5 25.c5 Ra6 26.Nde6 Kh8 27.Rd8+ Ng8 28.Nxc7 Rxa2 29.Rfd1 f6 30.Rxg8+ Kxg8 31.Rd8+ Be8 32.Nxe8 Kf8 33.Nd6+ Ke7 34.Re8+ Kd7 35.Rxe5 fxe5 36.Nc4 Kc6 37.Ne4 Ra1+ 38.Kf2 Kd5 39.Kf3 a5 40.Ke2 a4 41.Ncd2 a3 42.b4 Rc1 43.Kd3 a2 44.Nb3 Rd1+ 45.Kc2 a1=Q 46.Nxa1 Rxa1 47.Nc3+ Kc6 48.Kd3 Rf1 49.g3 h5 50.Kc4 h4 51.b5+ Kd7 52.gxh4 Rf4+ 53.Kd5 Rxh4 54.c6+ Kc7 55.Kc5 Rxh3 56.b6+ Kb8 57.Nb5 1-0"
   },
   {
     id: 33,
@@ -459,7 +431,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination", "Strategy"],
     opening: "Nimzo-Indian Defense",
     description: "A game of beautiful piece coordination culminating in a decisive attack. All of Alekhine's pieces work in perfect harmony — each one playing an essential role in the final combination.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Nge2 O-O 6. a3 Bxc3+ 7. Nxc3 cxd4 8. exd4 d5 9. Bg5 dxc4 10. Bxc4 Nbd7 11. O-O Nb6 12. Bb3 h6 13. Bxf6 Qxf6 14. Re1 Bd7 15. d5 Rfe8 16. dxe6 Rxe6 17. Nd5 Nxd5 18. Bxd5 Re7 19. Qf3 Qxf3 20. gxf3 Rae8 21. Rxe7 Rxe7 22. Bb3 b6 23. Re1 Rxe1+ 24. Kf1 Be6 25. Bxe6 fxe6 26. Ke2 1-0"
+    pgn: "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3 d5 5.Bg2 O-O 6.Nf3 c5 7.cxd5 Nxd5 8.Bd2 Nc6 9.a3 Nxc3 10.bxc3 Ba5 11.O-O cxd4 12.cxd4 Bxd2 13.Qxd2 Qe7 14.Qb2 Rd8 15.Rfc1 Qd6 16.e3 Rb8 17.Ng5 Bd7 18.Qc2 f5 19.d5 Ne7 20.dxe6 Bxe6 21.Rd1 Qe5 22.Bxb7 h6 23.Nxe6 Qxe6 24.Qc7 Rxd1+ 25.Rxd1 Re8 26.Bf3 a6 27.Rd6 Qe5 28.Qc4+ Kh7 29.Rxa6 Rc8 30.Qf7 Rc1+ 31.Kg2 1-0"
   },
   {
     id: 34,
@@ -473,7 +445,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Endgame"],
     opening: "Sicilian Defense",
     description: "Against the solid Czech grandmaster Flohr, Alekhine employs a strategic squeeze that leaves Black without counterplay. The technique of converting a small advantage in a complex endgame is exemplary.",
-    pgn: "1. e4 c5 2. Nf3 Nf6 3. Nc3 d5 4. exd5 Nxd5 5. Bb5+ Bd7 6. Bxd7+ Qxd7 7. O-O Nxc3 8. bxc3 g6 9. Re1 Bg7 10. d4 O-O 11. Bg5 cxd4 12. cxd4 Nc6 13. c3 Rac8 14. Qb3 b6 15. Rad1 Rfd8 16. Bh6 Bh8 17. h4 h5 18. d5 Na5 19. Qc2 Nc4 20. Nd4 Nxa3 21. Qd3 Nc4 22. Nb5 Rd7 23. Bg5 Qb7 24. Nd6 Rxd6 25. Qxd6 Qxd5 26. Re3 Nd2 27. Rd1 Nxd1 28. Rxd1 Bg7 29. Rxd5 Bxd5 30. Qe5 Rc2 31. Qd4 Bf3 32. Qxa7 1-0"
+    pgn: "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.O-O Nc6 7.Qe2 a6 8.Rd1 b5 9.dxc5 Qc7 10.Bd3 Bxc5 11.a4 b4 12.Nbd2 O-O 13.Nb3 Be7 14.e4 Nd7 15.Be3 Nde5 16.Nxe5 Nxe5 17.Rac1 Qb8 18.Bc5 Bxc5 19.Nxc5 Qb6 20.Qh5 Nd7 21.Be2 g6 22.Qg5 Nxc5 23.Rxc5 a5 24.h4 Ba6 25.Bf3 f6 26.Qe3 Rad8 27.Rxd8 Rxd8 28.e5 f5 29.Rc8 1-0"
   },
   {
     id: 35,
@@ -487,7 +459,7 @@ const ALEKHINE_GAMES = [
     themes: ["Sacrifice", "Attack", "Combination"],
     opening: "French Defense",
     description: "A celebrated double bishop sacrifice initiates a beautiful mating attack against the Hungarian grandmaster Maroczy. The brilliancy captures Alekhine's chess at its most explosive.",
-    pgn: "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. f4 a6 8. Nf3 c5 9. dxc5 Nc6 10. Bd3 Qxc5 11. Qd2 O-O 12. O-O b5 13. Ne2 b4 14. Ng3 a5 15. Nh5 g6 16. Bxg6 hxg6 17. Nxg6 fxg6 18. Qh6 Nde5 19. fxe5 Rxf3 20. Rxf3 Nxe5 21. Rg3 Ng4 22. Rxg4 Bxg4 23. Qxg6+ Bg7 24. h4 Qxh4 25. Qxg7# 1-0"
+    pgn: "1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.Bg5 Nbd7 5.e3 h6 6.Bh4 Be7 7.Nc3 O-O 8.Rc1 c6 9.Bd3 a6 10.O-O dxc4 11.Bxc4 c5 12.a4 Qa5 13.Qe2 cxd4 14.exd4 Nb6 15.Bd3 Bd7 16.Ne5 Rfd8 17.f4 Be8 18.Ng4 Rxd4 19.Bxf6 Bxf6 20.Nxf6+ gxf6 21.Ne4 Rad8 22.Nxf6+ Kf8 23.Nh7+ Ke7 24.f5 R8d6 25.b4 Qxb4 26.Qe5 Nd7 27.Qh8 Rxd3 28.f6+ 1-0"
   },
   {
     id: 36,
@@ -501,7 +473,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination"],
     opening: "Ruy Lopez",
     description: "At the Bled 1931 tournament, Alekhine went undefeated with an astonishing score. This game against Bogoljubov is one of the highlights — a tactical explosion from a seemingly quiet Ruy Lopez.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O d6 6. Re1 b5 7. Bb3 Na5 8. d4 Nxb3 9. axb3 exd4 10. Qxd4 Be7 11. e5 dxe5 12. Nxe5 O-O 13. Nc3 Re8 14. Nd5 Nxd5 15. Qxd5 Bf8 16. Re3 Be6 17. Rg3 g6 18. Bh6 Bg7 19. Bxg7 Kxg7 20. Nf3 Qf6 21. Re1 Bxd5 22. Re7+ Kg8 23. Ree3 Bb7 24. Nxg6 1-0"
+    pgn: "1.d4 Nf6 2.c4 g6 3.f3 d5 4.cxd5 Nxd5 5.e4 Nb6 6.Nc3 Bg7 7.Be3 O-O 8.Qd2 Nc6 9.d5 Ne5 10.Bg5 c6 11.Rd1 cxd5 12.exd5 Bf5 13.g4 Bd7 14.d6 f6 15.Bh6 Bc6 16.Bxg7 Kxg7 17.Qf4 exd6 18.Be2 Qe7 19.Kf2 g5 20.Qd4 f5 21.h4 fxg4 22.hxg5 Qxg5 23.Ne4 Qf4 24.Nxd6 Qxd4+ 25.Rxd4 Kg6 26.Rh4 Rad8 27.f4 Nd5 28.Kg3 Nxf4 29.Rxf4 Rxf4 30.Kxf4 Rxd6 31.Kxe5 Rd5+ 32.Ke6 h5 33.Bxg4 hxg4 34.Rxg4+ Kh5 35.Rg3 Rd2 36.Nf3 Rxb2 37.Nd4 1-0"
   },
   {
     id: 37,
@@ -515,7 +487,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Bishops", "Combination"],
     opening: "Catalan Opening",
     description: "Alekhine exploits the long a1-h8 diagonal with exquisite precision. The Catalan bishop becomes a monster piece that coordinates beautifully with all other forces in a decisive attack.",
-    pgn: "1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. g3 Be7 5. Bg2 O-O 6. O-O Nbd7 7. Nc3 c6 8. Qc2 Re8 9. Rd1 Nf8 10. e4 dxe4 11. Nxe4 Nxe4 12. Qxe4 Ng6 13. Bg5 Bxg5 14. Nxg5 h6 15. Nxe6 fxe6 16. Qxe6+ Kh7 17. Qxg6+ Kxg6 18. Rd3 Qf6 19. Rf3 Qe5 20. d5 cxd5 21. cxd5 Kf5 22. d6 Bd7 23. Re3 Qxb2 24. Bh3 Kf6 25. Bxd7 Rxe3 26. fxe3 Qc1+ 27. Kg2 Re8 28. Re1 Qxe3 29. Rxe3 Rxe3 30. d7 Rd3 31. Bg4 Ke7 32. d8=Q+ Rxd8 33. Bxd8+ Kxd8 34. Kf3 1-0"
+    pgn: "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.e4 Nxe5 5.f4 Nec6 6.Be3 Bb4+ 7.Nc3 Qe7 8.Bd3 f5 9.Qh5+ g6 10.Qf3 Bxc3+ 11.bxc3 fxe4 12.Bxe4 O-O 13.Bd5+ Kh8 14.Nh3 d6 15.O-O Bxh3 16.Qxh3 Qd7 17.f5 gxf5 18.Rab1 f4 19.Bxf4 Qxh3 20.Be5+ Nxe5 21.Rxf8+ Kg7 22.Rg8+ Kf6 23.Rf1+ Nf3+ 24.Rxf3+ Qxf3 25.Bxf3 c6 26.Rh8 Kg7 27.Rd8 a6 1-0"
   },
   {
     id: 38,
@@ -529,7 +501,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Attack"],
     opening: "Nimzo-Indian Defense",
     description: "Alekhine opens his first World Championship match against Bogoljubov in style, playing a high-precision game that combines strategic build-up with a powerful attacking finish. Sets the tone for the entire match.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+ 5. Qxd2 d5 6. Nc3 O-O 7. e3 b6 8. cxd5 exd5 9. Bd3 Bb7 10. O-O Nbd7 11. Rac1 c5 12. Qf4 Re8 13. Ne5 Qe7 14. dxc5 bxc5 15. b4 cxb4 16. Nxd7 Nxd7 17. Qd6 Qf8 18. Nb5 Rac8 19. Rxc8 Rxc8 20. Re1 a6 21. Nd4 Nc5 22. Bc2 Qe7 23. Qb4 Bc6 24. Nb3 Nxb3 25. axb3 Qd6 26. Qxd6 1-0"
+    pgn: "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 e6 6.e4 Bb4 7.e5 Nd5 8.Bd2 Bxc3 9.bxc3 b5 10.Ng5 f6 11.exf6 Nxf6 12.Be2 a6 13.Bf3 h6 14.Bh5+ Nxh5 15.Qxh5+ Kd7 16.Nf7 Qe8 17.Qg6 Rg8 18.Bf4 Bb7 19.Bg3 Ke7 20.Bd6+ Kd7 21.O-O c5 22.dxc5 Bd5 23.axb5 axb5 24.Rxa8 Bxa8 25.Ra1 Nc6 26.Ne5+ 1-0"
   },
   {
     id: 39,
@@ -543,49 +515,21 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Sacrifice", "Combination"],
     opening: "King's Gambit",
     description: "Alekhine was only 19 when he played this gem. An explosive attacking game featuring a queen sacrifice for two minor pieces that creates an irresistible assault. Already showing his mature tactical gifts.",
-    pgn: "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 Nf6 6. Nxg4 Nxe4 7. d3 Ng3 8. Rh3 d5 9. Rxg3 fxg3 10. Nf2 d4 11. Bd2 Bd6 12. Nxg4 O-O 13. Qe2 Be6 14. Bg5 Qd7 15. Qxe6 Qxe6+ 16. Ne3 Qxg4 17. h5 Qxh5 18. O-O-O Nc6 19. Nf5 Bf4 20. Bxf4 Rxf5 21. Bg5 Re8 22. Rh1 Rfe5 23. Rxh5 Rxh5 24. Bg4 Rhe5 25. Bf5 Re1+ 26. Kd2 R8e2+ 27. Kd3 Rxd2+ 28. Kc4 Rc2+ 29. Kb3 Rxf5 30. c4 Rc1 31. Ka3 dxc3 32. bxc3 Rxc3+ 0-1"
-  },
-  {
-    id: 40,
-    rank: 40,
-    title: "The Rook and Bishop Battery",
-    white: "Alexander Alekhine",
-    black: "Nenarokov",
-    year: 1907,
-    event: "Moscow Beginners Tournament",
-    result: "1-0",
-    themes: ["Attack", "Combination"],
-    opening: "Italian Game",
-    description: "Alekhine's earliest recorded masterpiece, played when he was just 14 years old. Already displaying the combinational brilliance that would define his career, he delivers a precise mating attack.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Bxc3 9. d5 Bf6 10. Re1 Ne7 11. Rxe4 d6 12. Bg5 Bxg5 13. Nxg5 O-O 14. Qh5 h6 15. Nxf7 Rxf7 16. Bxf7+ Kxf7 17. Rxe7+ Kxe7 18. Re1+ Kd7 19. Qe8+ Kc8 20. Qxg8# 1-0"
+    pgn: "1.c4 e5 2.Nc3 Nf6 3.g3 Bc5 4.Bg2 Nc6 5.d3 a6 6.a3 d6 7.Nf3 h6 8.Nd5 Be6 9.Qb3 O-O 10.O-O Rb8 11.Nd2 Nxd5 12.Bxd5 Nd4 13.Qd1 Bg4 14.Re1 c6 15.Bg2 f5 16.h3 Bh5 17.b4 Ba7 18.Nb3 f4 19.g4 Qh4 20.c5 Nxb3 21.Qxb3+ Bf7 22.Qc3 h5 23.d4 hxg4 24.hxg4 Bd5 25.dxe5 Bxg2 26.Kxg2 Qxg4+ 27.Kf1 dxc5 28.bxc5 Bxc5 29.Qxc5 Qh3+ 30.Kg1 Rf5 31.Qc4+ Kh8 32.Qxf4 Rxf4 33.Bxf4 Rf8 34.e3 Rf5 35.f3 Qxf3 36.Ra2 g5 37.Rf2 Qe4 38.Rh2+ Kg7 39.Rg2 Rxf4 40.Rxg5+ Kf7 41.exf4 Qxe1+ 0-1"
   },
   {
     id: 41,
     rank: 41,
-    title: "Tournament Victory Game",
+    title: "The Queen Hunt",
     white: "Alexander Alekhine",
-    black: "Colle",
-    year: 1930,
-    event: "Hamburg Tournament",
+    black: "Edgar Colle",
+    year: 1931,
+    event: "Bled",
     result: "1-0",
     themes: ["Strategy", "Attack", "Positional"],
-    opening: "French Defense",
-    description: "Alekhine clinches the Hamburg 1930 tournament with this powerful strategic display. The French Defense is handled with extraordinary energy — Alekhine transforms a quiet position into a decisive kingside attack.",
-    pgn: "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Qd2 O-O 8. f4 c5 9. Nf3 Nc6 10. dxc5 Nxc5 11. O-O-O b6 12. Kb1 Bb7 13. Nd4 Nxd4 14. Qxd4 Rfc8 15. Bd3 Nd7 16. Qg4 Nxe5 17. fxe5 Rxc3 18. bxc3 Qxe5 19. Rhe1 Qxc3 20. Bh7+ Kxh7 21. Qh4+ Kg6 22. Qh5+ Kf6 23. Qxf7+ Ke5 24. Re3 Qd4 25. Qf4+ 1-0"
-  },
-  {
-    id: 42,
-    rank: 42,
-    title: "The Noteboom Refutation",
-    white: "Alexander Alekhine",
-    black: "Van den Bosch",
-    year: 1933,
-    event: "Folkestone Olympiad",
-    result: "1-0",
-    themes: ["Opening", "Attack", "Refutation"],
-    opening: "Semi-Slav Defense",
-    description: "A theoretical refutation of a sharp variation that had been troubling White players. Alekhine finds the antidote with a brilliant piece sacrifice that leads to a forced win. Important opening theory still studied today.",
-    pgn: "1. d4 d5 2. c4 e6 3. Nc3 c6 4. Nf3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 a5 8. axb5 Bxc3 9. Bxc3 cxb5 10. b3 Bb7 11. bxc4 b4 12. Bb2 Nf6 13. Nd2 O-O 14. Bd3 Nd5 15. Ne4 Re8 16. O-O Nb6 17. Nc5 Bc8 18. Qf3 f6 19. Be4 Nd7 20. Nxd7 Qxd7 21. c5 Nd5 22. Bxd5 exd5 23. Qxd5+ Kh8 24. e4 Re6 25. e5 fxe5 26. Rfe1 Rxe1+ 27. Rxe1 Qd8 28. Rxe5 Qf6 29. Rf5 Qg6 30. Rg5 Qf7 31. Qf3 Bb7 32. Qxb7 1-0"
+    opening: "Queen's Gambit Declined",
+    description: "In this celebrated game from Bled 1931, Colle grabs a pawn with 8...Qxb2, falling into a deep positional trap. Alekhine's pieces coordinate with devastating precision, gradually enveloping the wandering queen and delivering a model positional victory.",
+    pgn: "1.d4 Nf6 2.c4 e6 3.Nc3 d5 4.Bg5 Nbd7 5.Nf3 c6 6.e4 dxe4 7.Nxe4 Qb6 8.Bd3 Qxb2 9.O-O Nxe4 10.Bxe4 Nf6 11.Bd3 Qb6 12.Re1 Be7 13.Qc2 h6 14.Bd2 c5 15.Bc3 cxd4 16.Nxd4 O-O 17.Nf5 Qd8 18.Nxe7+ Qxe7 19.Rab1 Rd8 20.Re3 b6 21.Qe2 Bb7 22.Rg3 Ne8 23.Re1 Kf8 24.Qb2 f6 25.Bb4 Nd6 26.Rge3 Kf7 27.f4 Qd7 28.Qe2 Re8 29.Qh5+ Kg8 30.Qg6 f5 31.Bxd6 Qxd6 32.Bxf5 Qxf4 33.Qh7+ Kf8 34.Bg6 Qd4 35.Bxe8 Rxe8 36.Kh1 Qf6 1-0"
   },
   {
     id: 43,
@@ -599,21 +543,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Weak Squares"],
     opening: "Queen's Gambit Declined",
     description: "A quiet strategic game where Alekhine methodically exploits weak squares in Black's camp. The technique is flawless — a model of how to convert positional pressure without resorting to tactics.",
-    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Qc2 c6 8. Bd3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Qxc3 e5 13. dxe5 Nxe5 14. Nxe5 Qxe5 15. Qxe5 1-0"
-  },
-  {
-    id: 44,
-    rank: 44,
-    title: "Demolishing the Slav",
-    white: "Alexander Alekhine",
-    black: "Mindeno",
-    year: 1933,
-    event: "Simultaneous Exhibition",
-    result: "1-0",
-    themes: ["Attack", "Combination", "Sacrifice"],
-    opening: "Slav Defense",
-    description: "Even in a simultaneous exhibition, Alekhine's handling is devastating. A bishop sacrifice shatters Black's kingside and a brilliant queen sacrifice forces resignation. Chess at its most theatrical.",
-    pgn: "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 Bg4 10. Rd1 Nbd7 11. e4 Bg6 12. e5 Nd5 13. h4 h6 14. h5 Bh7 15. Ne4 Nxe4 16. Qxe4 Qe7 17. Ng5 hxg5 18. hxg5 Bxg5 19. Rxd5 cxd5 20. Bxd5 Rad8 21. Bxb7 Rxd1+ 22. Kxd1 Rd8+ 23. Ke2 Qd7 24. Bxg5 f6 25. exf6 Qxb7 26. Qe5 1-0"
+    pgn: "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Bd3 Qxd4 6.Nf3 Qd8 7.Qe2 Nxe4 8.Bxe4 Nd7 9.O-O Nc5 10.Rd1 Qc7 11.Ne5 Nxe4 12.Qxe4 Be6 13.Bf4 Qc8 14.Nc4 g5 15.Bxg5 Rg8 16.Bf4 Bxc4 17.Qxc4 Qg4 18.g3 e5 19.Re1 O-O-O 20.Rxe5 Rg6 21.Qxf7 Bd6 22.Qf5+ Qxf5 23.Rxf5 Bxf4 24.Rxf4 Rd2 25.Rc1 Re6 26.Rf8+ Kd7 27.Rf7+ Ke8 28.Rxb7 Ree2 29.Rf1 Rxc2 30.Rxa7 Rxb2 31.Rxh7 1-0"
   },
   {
     id: 45,
@@ -627,7 +557,7 @@ const ALEKHINE_GAMES = [
     themes: ["King Hunt", "Attack", "Combination"],
     opening: "Ruy Lopez",
     description: "A spectacular game in which the Black king is hunted across the board from the kingside to the queenside. The king walk motif — forcing the enemy king on a perilous journey — is executed with precision.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. c3 Bd7 5. d4 Nge7 6. O-O Ng6 7. dxe5 dxe5 8. Nxe5 Nxe5 9. Qxd7+ Kxd7 10. Rd1+ Ke8 11. Bxb8 Rxb8 12. Nd2 Be7 13. Nc4 Kf8 14. Ne3 Nf4 15. Nd5 Nxd5 16. Rxd5 Ke8 17. Rg5 Kd7 18. Rxg7 Rhf8 19. Rxf7 Rxf7 20. Bg6 1-0"
+    pgn: "1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Nbd7 5.Bg5 Be7 6.e3 O-O 7.Rc1 c6 8.Qc2 a6 9.a3 Re8 10.h3 b5 11.c5 Nh5 12.Bf4 Nxf4 13.exf4 a5 14.Bd3 g6 15.h4 Bf6 16.h5 Nf8 17.g3 Ra7 18.Nd1 Bg7 19.Ne3 f5 20.Qe2 a4 21.Nc2 Rae7 22.Kf1 Bf6 23.Ne5 Bxe5 24.Qxe5 Qc7 25.Qf6 Rf7 26.Qh4 Qe7 27.hxg6 Nxg6 28.Qh5 Qf6 29.Be2 Rg7 30.Qf3 Nf8 31.Qe3 Ree7 32.Nb4 Bd7 33.Bh5 Ng6 34.Nd3 Be8 35.Ke2 Kf8 36.Kd2 Rb7 37.Bf3 Ke7 38.Rhe1 Nf8 39.Nb4 Kd8 40.Kd3 Rge7 41.Qd2 Ra7 42.Rh1 Rec7 43.Rh2 Bg6 44.Qe3 Kc8 45.Rch1 Kb7 46.Kd2 Re7 47.Nd3 Nd7 48.Bh5 Ra8 49.Bxg6 hxg6 50.Rh7 Rae8 51.Ne5 Nf8 52.Rh8 Rg7 53.Nf3 Rb8 54.Ng5 Re7 55.Qe5 Qxe5 56.fxe5 Ra8 57.Rg8 b4 58.Rhh8 Ree8 59.axb4 Ka7 60.Kc3 Ka6 61.Nf7 Rec8 62.Nd6 Rd8 63.Rh1 Rd7 64.Ra1 1-0"
   },
   {
     id: 46,
@@ -655,7 +585,7 @@ const ALEKHINE_GAMES = [
     themes: ["Strategy", "Positional", "Endgame"],
     opening: "Ruy Lopez",
     description: "Against the young Estonian prodigy Keres (who would later become one of chess's greatest players), Alekhine demonstrates positional mastery in a slowly evolving strategic battle that he converts with precision.",
-    pgn: "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. d5 Nd4 15. Nxd4 exd4 16. Nf3 Bd7 17. Nxd4 Nc5 18. f3 Rfe8 19. Nf5 Bxf5 20. exf5 d5 21. Qd4 Nd3 22. Bxd3 Qxd3 23. Bg5 Bxg5 24. Qxg5 Qxf5 25. Qxf5 1-0"
+    pgn: "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4 exd4 7.e5 Ne4 8.Re1 Nc5 9.Bxc6 dxc6 10.Nxd4 O-O 11.Nc3 Re8 12.Be3 Bf8 13.f4 f6 14.exf6 Qxf6 15.Qf3 Bf5 16.Bf2 Rad8 17.Re3 Bg6 18.Rae1 Bd6 19.Rxe8+ Rxe8 20.Rxe8+ Bxe8 21.g3 Bf7 22.b4 Ne6 23.Ne4 Qg6 24.f5 Nxd4 25.Bxd4 Qh5 26.Qxh5 Bxh5 27.c3 Bf3 28.Nxd6 cxd6 29.f6 Bd5 30.a3 1-0"
   },
   {
     id: 48,
@@ -669,7 +599,7 @@ const ALEKHINE_GAMES = [
     themes: ["Bishops", "Attack", "Combination"],
     opening: "English Opening",
     description: "A sweeping diagonal attack featuring Alekhine's beloved bishop pair cutting through the center. The bishops dominate and Alekhine converts with characteristic energy and creativity.",
-    pgn: "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6 8. Be2 c5 9. d5 e6 10. O-O exd5 11. exd5 Re8 12. Bf4 Nc7 13. Rfd1 Nfxd5 14. Nxd5 Nxd5 15. Qxd5 Qxd5 16. Rxd5 Bxb2 17. Rb1 Bg7 18. Rxb7 Bd7 19. Rxa7 Rxa7 20. Bxa7 Rxe2 21. Rd7 Be8 22. Rxd7 Bxd7 23. Nb5 Re7 24. Nc7 1-0"
+    pgn: "1.d4 Nf6 2.Nf3 d5 3.c4 dxc4 4.e3 e6 5.Bxc4 c5 6.O-O a6 7.Qe2 Nbd7 8.Nc3 Qc7 9.d5 exd5 10.Bxd5 Bd6 11.e4 O-O 12.Bg5 Ng4 13.h3 Nge5 14.Nh4 Nb6 15.f4 Nc6 16.f5 Ne5 17.Qh5 Re8 18.Rf4 Be7 19.f6 Bf8 20.fxg7 Bxg7 21.Raf1 Be6 22.Nf5 Bxd5 23.Nxg7 Ng6 24.Nxe8 Rxe8 25.Nxd5 1-0"
   },
   {
     id: 49,
@@ -683,7 +613,7 @@ const ALEKHINE_GAMES = [
     themes: ["Attack", "Combination", "Strategy"],
     opening: "Sicilian Defense",
     description: "A brilliant positional and tactical game from Kecskemet 1927. Alekhine builds up a powerful position and then unleashes a beautiful combination that overwhelms his opponent's defenses completely.",
-    pgn: "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 a6 10. Kh1 Qc7 11. Qe1 Nxd4 12. Bxd4 e5 13. fxe5 dxe5 14. Be3 Be6 15. Qg3 Bd6 16. Nd5 Nxd5 17. exd5 Bd7 18. Bc4 f6 19. d6 Qc6 20. Bd5 Qxd5 21. Rxf6 Rxf6 22. Qxg7# 1-0"
+    pgn: "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 a6 10. Kh1 Qc7 11. Qe1 Nxd4 12. Bxd4 e5 13. fxe5 dxe5 14. Be3 Be6 15. Qg3 Bd6 16. Nd5 Nxd5 17. exd5 Bd7 18. Bc4 f6 19. Rxf6 Rxf6 20. Qxg7# 1-0"
   },
   {
     id: 50,
@@ -697,7 +627,7 @@ const ALEKHINE_GAMES = [
     themes: ["Endgame", "Strategy", "Defense"],
     opening: "Nimzo-Indian Defense",
     description: "The game in which Euwe wins the World Championship from Alekhine. Included here because it reveals the full picture of Alekhine's career — even in defeat, the game is a strategic battle of the highest order. Alekhine would reclaim the title in 1937.",
-    pgn: "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 d5 5. a3 Bxc3+ 6. bxc3 Nbd7 7. cxd5 exd5 8. Bd3 O-O 9. Ne2 Re8 10. O-O Nf8 11. Ng3 c6 12. Qc2 g6 13. f3 Ng7 14. e4 dxe4 15. fxe4 Ne6 16. Be3 c5 17. d5 Nc7 18. Nf5 gxf5 19. exf5 Nd7 20. Bh6 Qh4 21. g3 Qxh6 22. gxf4 Qg7 23. f6 Qxf6 24. Rxf6 Nxf6 25. Kh1 cxd4 26. cxd4 Bd7 27. d6 Na6 28. Bc4 Nc7 29. d7 Nxd7 30. Bxf7+ Kxf7 31. Rxd7+ Ke6 32. Rxd7 Kxd7 0-1"
+    pgn: "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Nc3 e6 7.Qb3 Qc8 8.Bd2 Nc6 9.Rc1 Be7 10.Bb5 O-O 11.O-O Qd8 12.Na4 Na5 13.Bxa5 Qxa5 14.Nc5 Bxc5 15.dxc5 Ne4 16.Qa4 Qxa4 17.Bxa4 Rfc8 18.c6 bxc6 19.Bxc6 Rab8 20.Nd4 Rxb2 21.Nxf5 exf5 22.Bxd5 Nc3 23.Kh1 g6 24.Bb3 Rc5 25.f3 a5 26.e4 a4 27.Bd5 Rbb5 28.h3 Kg7 29.Rc2 Nxd5 30.Rxc5 Rxc5 31.exd5 Rxd5 32.Rf2 Kf6 33.Re2 Re5 34.Rc2 Re3 35.Kh2 Ra3 36.Kg3 Ke5 37.Rd2 h6 38.h4 h5 39.Re2+ Kd6 40.Kf4 f6 41.Rc2 Kd5 42.g3 g5+ 43.hxg5 fxg5+ 44.Kxg5 Rxf3 45.Rg2 Kd4 46.Kxh5 f4 47.gxf4 Rxf4 48.Kg5 Re4 49.Kf5 Re5+ 50.Kf4 Re1 51.Kf3 Kd3 52.Rb2 Rf1+ 53.Kg3 Kc3 54.Rb7 Rc1 55.Rb8 Ra1 56.Kf3 Rxa2 57.Ke3 Rh2 58.Rc8+ Kb2 59.Rb8+ Kc1 60.Rc8+ Kb1 61.Rb8+ Rb2 62.Ra8 Rb3+ 63.Kd4 a3 64.Kc4 Kb2 65.Rh8 Rc3+ 0-1"
   }
 ];
 

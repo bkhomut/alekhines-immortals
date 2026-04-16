@@ -263,18 +263,47 @@ function renderGameDetail(g) {
   `;
 }
 
+// ── PGN parsing ───────────────────────────────────────────
+function parsePgn(pgn) {
+  // Extract SAN tokens from raw PGN move text (no headers)
+  const tokens = pgn
+    .replace(/\{[^}]*\}/g, '')        // strip inline comments
+    .replace(/\([^)]*\)/g, '')        // strip variation parens
+    .replace(/\d+\.+\s*/g, ' ')       // remove move numbers (1. 1... etc)
+    .replace(/\$\d+/g, '')            // remove NAG annotations
+    .trim()
+    .split(/\s+/)
+    .filter(t => t && !/^(1-0|0-1|1\/2-1\/2|\*)$/.test(t));
+
+  const chess = new Chess();
+  const moves = [];
+
+  for (const token of tokens) {
+    // Try move as-is first
+    let result = chess.move(token);
+
+    // Fallback: strip unnecessary file/rank disambiguators (e.g. Ngf3 → Nf3)
+    if (!result) {
+      const noFileDisambig = token.replace(/^([NBRQK])[a-h](?=[a-h][1-8]|[NBRQK]|x|[1-8])/, '$1');
+      if (noFileDisambig !== token) result = chess.move(noFileDisambig);
+    }
+    if (!result) {
+      const noRankDisambig = token.replace(/^([NBRQK])[1-8](?=[a-h])/, '$1');
+      if (noRankDisambig !== token) result = chess.move(noRankDisambig);
+    }
+
+    if (!result) break;   // stop at first truly illegal move
+    moves.push(result);
+  }
+
+  return moves;
+}
+
 // ── Chess board ──────────────────────────────────────────
 function initBoard(g) {
-  // Parse moves using chess.js
   game = new Chess();
-  parsedMoves = [];
+  parsedMoves = parsePgn(g.pgn);
   currentMoveIndex = -1;
-
-  // Parse PGN
-  const pgnResult = game.load_pgn(g.pgn, { sloppy: true });
-  if (pgnResult) {
-    parsedMoves = game.history({ verbose: true });
-  }
 
   // Reset to start
   game.reset();
